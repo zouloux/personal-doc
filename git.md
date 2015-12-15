@@ -32,7 +32,7 @@ Attention : Ne pas faire git init suivit de git clone ça peut poser des problè
 
 
 ##### Savoir l'état courant du repo local (si des fichiers doivent être ajoutés à l’index, etc)
-`git status`
+- `git status`
 
 
 ##### Ajouter des fichiers au staging
