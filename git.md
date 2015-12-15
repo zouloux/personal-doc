@@ -62,11 +62,11 @@ Pour la suppression voir `git rm` plus bas.
 - `git remote add origin git@github.com:la-haute-societe/three-dee-boilerplate.git`
 
 
-##### 
+##### Récupérer le head dans le workind directory (repo local vers système de fichiers)
 - `git pull`
 
 
-##### 
+##### Récupérer l'origin vers le head (repo distant vers repo local)
 - `git fetch`
 
 
