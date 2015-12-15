@@ -34,10 +34,11 @@ Attention : Ne pas faire git init suivit de git clone ça peut poser des problè
 
 ##### Ajouter des fichiers au staging
 `git add test*` va ajouter tous les fichiers qui commencent par `test`
-`git add *` intègre tous les fichiers ajoutés / modifiés / supprimés au staging
+`git add *` intègre tous les fichiers ajoutés / modifiés au staging
 `git add build/*` va ajouter tous les fichiers et dossiers de `build/`
 `git add fichier1.txt fichier2.txt` va simplement ajouter ces 2 fichiers
-Il est à noter que add n'est pas un ajout de fichier mais bien une prise en compte de l'état (ajouté / modifié / supprimé)
+Il est à noter que add n'est pas un ajout de fichier mais bien une prise en compte de l'état (ajouté / modifié).
+Pour la suppression voir `git rm` plus bas.
 
 ##### Commiter [aide](http://git-scm.com/docs/git-commit)
 `git commit` ouvre l’éditeur par défaut pour le message de commit [changer l'éditeur par défaut](https://help.github.com/articles/associating-text-editors-with-git/)
@@ -52,36 +53,34 @@ Il est à noter que add n'est pas un ajout de fichier mais bien une prise en com
 ##### Selon la configuration il faudra ajouter l'origine SSH
 `git remote add origin git@github.com:la-haute-societe/three-dee-boilerplate.git`
 
-// origin -> mon repo
-// upstream -> le dépo du copain
+##### 
+`git pull`
 
-// Récupérer depuis le repo vers le local
+##### 
+`git fetch`
+
+##### Faire le merge d'une branche spécifique dans le repo local
+`git merge %BRANCH%`
+Par défaut branch = master donc sans paramètre ça récupère juste le dernier commit en local.
+
+##### Editer la config du repo git local (par exemple pour passer de l’URL en HTTPS vers URL en SSH)
+`%EDITOR% .git/config`
+Editor remplace la commande qui lance l'éditeur (`mate` / `st` / `nano` ...)
+
+##### Déplacer un fichier (utiliser git plutôt pour faire ça)
+`git mv`
+
+##### Supprimer des fichiers du staging
+`git rm %FILE%`
+
+##### Supprimer du staging sans supprimer du système de fichiers
+`git rm --cached node_modules`
+
+##### Ajouter un fichier au gitignore
+`echo .idea/ >> .gitignore`
+
+##### Sync git dans un dossier non vide
+```git init
+git remote add origin git@gi...
 git fetch
-
-// Merge des modifs distantes sur le repo local
-git merge
-
-// fetch / merge 2 en 1
-git pull
-
-// Editer la config du repo git local (par exemple pour passer de l’URL en HTTPS vers URL en SSH)
-mate .git/config
-
-// Déplacer un fichier (utiliser git plutôt pour faire ça)
-git mv
-
-// Supprimer des fichiers du staging (le git add n’ajoute pas les suppressions mais bien que les ajouts / modifications)
-git rm %file
-
-// Supprimer du staging sans supprimer du système de fichiers
-git rm --cached foo
-
-// Ajouter un fichier au gitignore
-echo .idea/ >> .gitignore
-
-// Sync git dans un dossier non vide
-git init
-git remote add origin git@gi……
-git fetch
-git checkout -t origin/master
-
+git checkout -t origin/master```
