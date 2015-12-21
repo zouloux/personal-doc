@@ -36,6 +36,7 @@ Attention : Ne pas faire git init suivit de git clone ça peut poser des problè
 
 
 ##### Ajouter des fichiers au staging
+Exemples :
 - `git add test*` va ajouter tous les fichiers qui commencent par `test`
 - `git add *` intègre tous les fichiers ajoutés / modifiés au staging
 - `git add build/*` va ajouter tous les fichiers et dossiers de `build/`
@@ -47,6 +48,7 @@ Pour la suppression voir `git rm` plus bas.
 
 ##### Commiter [aide](http://git-scm.com/docs/git-commit)
 - `git commit` ouvre l’éditeur par défaut pour le message de commit [changer l'éditeur par défaut](https://help.github.com/articles/associating-text-editors-with-git/)
+OU
 - `git commit -m "message"` commit avec ce message
 
 
@@ -99,7 +101,7 @@ Editor remplace la commande qui lance l'éditeur (`mate` / `st` / `nano` ...)
 
 
 ##### Sync git dans un dossier non vide
-`git init` Initialise le fichier git
-`git remote add origin git@gi...` ajoute le dépo distant comme remote
-`git fetch` recupère le repo distant en repo local
-`git checkout -t origin/master` checkout de la branche master dans le head
+- `git init` Initialise le fichier git
+- `git remote add origin git@gi...` ajoute le dépo distant comme remote
+- `git fetch` recupère le repo distant en repo local
+- `git checkout -t origin/master` checkout de la branche master dans le head
