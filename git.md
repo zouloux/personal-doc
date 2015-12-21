@@ -62,7 +62,7 @@ Pour la suppression voir `git rm` plus bas.
 - `git remote add origin git@github.com:la-haute-societe/three-dee-boilerplate.git`
 
 
-##### Récupérer le head dans le workind directory (repo local vers système de fichiers)
+##### Récupérer repo distant vers système de fichiers
 - `git pull`
 
 
@@ -99,7 +99,7 @@ Editor remplace la commande qui lance l'éditeur (`mate` / `st` / `nano` ...)
 
 
 ##### Sync git dans un dossier non vide
-- ```git init
-git remote add origin git@gi...
-git fetch
-git checkout -t origin/master```
+`git init` Initialise le fichier git
+`git remote add origin git@gi...` ajoute le dépo distant comme remote
+`git fetch` recupère le repo distant en repo local
+`git checkout -t origin/master` checkout de la branche master dans le head
