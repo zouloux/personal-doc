@@ -48,7 +48,7 @@ Pour la suppression voir `git rm` plus bas.
 
 ##### Commiter [aide](http://git-scm.com/docs/git-commit)
 - `git commit` ouvre l’éditeur par défaut pour le message de commit [changer l'éditeur par défaut](https://help.github.com/articles/associating-text-editors-with-git/)
-OU
+- OU
 - `git commit -m "message"` commit avec ce message
 
 
