@@ -105,3 +105,11 @@ Editor remplace la commande qui lance l'éditeur (`mate` / `st` / `nano` ...)
 - `git remote add origin git@gi...` ajoute le dépo distant comme remote
 - `git fetch` recupère le repo distant en repo local
 - `git checkout -t origin/master` checkout de la branche master dans le head
+
+
+
+
+## A documenter / expérimenter ...
+- Gestion des branches
+- Gestion des conflits
+- Gestion des pull request
