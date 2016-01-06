@@ -60,13 +60,16 @@ killall Dock```
  
  
 
+
 ## Tips à base de console
 
 ##### Vider le cache DNS
 `sudo dscacheutil -flushcache`
 
 
+
+
 ## Sources :
  
-http://secrets.blacktree.com/?showapp=com.apple.dock
-http://www.chriswrites.com/17-ways-to-speed-up-mac-os-x-lion/
+- http://secrets.blacktree.com/?showapp=com.apple.dock
+- http://www.chriswrites.com/17-ways-to-speed-up-mac-os-x-lion/
