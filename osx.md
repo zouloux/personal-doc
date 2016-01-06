@@ -6,8 +6,8 @@
 
 ### QuickLook
 
-##### Ouvrir tous les fichiers ASCII en tant que fichier texte avec le quicklook Mac ([https://coderwall.com/p/dlithw/use-osx-finder-quicklook-to-preview-all-plain-text-files](source))
-- Télécharger [https://github.com/whomwah/qlstephen/downloads](ça)
+##### Ouvrir tous les fichiers ASCII en tant que fichier texte avec le quicklook Mac ([source](https://coderwall.com/p/dlithw/use-osx-finder-quicklook-to-preview-all-plain-text-files))
+- Télécharger [ça](https://github.com/whomwah/qlstephen/downloads)
 - Dézipper ici /Library/QuickLook
 - Exécuter cette commande `qlmanage -r`
 
