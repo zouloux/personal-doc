@@ -8,7 +8,7 @@
 
 ##### Ouvrir tous les fichiers ASCII en tant que fichier texte avec le quicklook Mac ([source](https://coderwall.com/p/dlithw/use-osx-finder-quicklook-to-preview-all-plain-text-files))
 - Télécharger [ça](https://github.com/whomwah/qlstephen/downloads)
-- Dézipper ici `/Library/QuickLook`
+- Dézipper ici `/Library/QuickLook
 - Exécuter cette commande `qlmanage -r`
 
 ##### Activer la sélection du texte dans l’aperçu
