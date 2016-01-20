@@ -107,12 +107,14 @@ Editor remplace la commande qui lance l'éditeur (`mate` / `st` / `nano` ...)
 - `git fetch` recupère le repo distant en repo local
 - `git checkout -t origin/master` checkout de la branche master dans le head
 
-##### Faire un nouvea tag
+##### Faire un nouveau tag
 ```
 git tag -a v0.0.2 -m "Release version 0.0.2"
 git push origin master --tags
 ```
 
+##### Lister les tags
+```git tag```
 
 
 ## A documenter / expérimenter ...
