@@ -3,6 +3,13 @@
 ## Customisation d'OSX depuis le terminal
 
 
+### Tips
+
+##### Vider le cache DNS
+- `sudo dscacheutil -flushcache`
+- `sudo killall -HUP mDNSResponder`
+
+
 ### QuickLook
 
 ##### Ouvrir tous les fichiers ASCII en tant que fichier texte avec le quicklook Mac ([source](https://coderwall.com/p/dlithw/use-osx-finder-quicklook-to-preview-all-plain-text-files))
