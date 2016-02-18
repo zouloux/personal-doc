@@ -17,6 +17,7 @@
 
 - Article d'Addyosmani sur le combo React / web components : [lien](https://addyosmani.com/blog/component-interop-with-react-and-custom-elements/)
 - Dynamic childrens et React, trucs important à saisir : [lien](http://blog.arkency.com/2014/10/react-dot-js-and-dynamic-children-why-the-keys-are-important/)
+- React, isomorphisme et SEO : [lien](http://blog.altima.fr/seo/react-js-isomorphisme/)
 
 
 ## Outils
