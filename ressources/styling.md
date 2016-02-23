@@ -9,3 +9,8 @@
 ## Flex-box
 
 - Normaliser les comportements Flexbox entre les browsers : [lien](http://philipwalton.com/articles/normalizing-cross-browser-flexbox-bugs/)
+
+
+## Books
+
+- Livre en ligne de goetter sur les flexbox : [lien](http://goetter.fr/livres/flexbox/)
