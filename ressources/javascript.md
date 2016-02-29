@@ -8,3 +8,4 @@
 ## Liens
 
 - Liens essentiels javscript (news / web-components / etc) : [lien](https://github.com/ericelliott/essential-javascript-links)
+- Multi-extends et type checking dans Typescript [lien](http://nch3v.github.io/2016/02/09/Mixins-with-type-checking-in-Typescript/index.html)
