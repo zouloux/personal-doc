@@ -17,7 +17,7 @@ Ceci est une sorte de documentation / bookmark personnelle de tout ce que je tro
 
 ### Ressources
 
-- [Analytics](https://github.com/zouloux/personal-doc/blob/master/ressources/anyltics.md)
+- [Analytics](https://github.com/zouloux/personal-doc/blob/master/ressources/analytics.md)
 - [Intégration](https://github.com/zouloux/personal-doc/blob/master/ressources/integration.md)
 - [Javascript (es6 / typescript)](https://github.com/zouloux/personal-doc/blob/master/ressources/javascript.md)
 - [Node (npm)](https://github.com/zouloux/personal-doc/blob/master/ressources/node.md)
