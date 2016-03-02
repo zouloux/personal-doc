@@ -5,6 +5,9 @@ Ces commandes fonctionnent sous mac.
 ##### Voir la doc rapidement
 `Fn + F1`
 
+##### Afficher le contenu d'une méthode rapidement
+`🍎 + Y`
+
 ##### Autocomplétion
 `ctrl + space`
 
@@ -19,3 +22,4 @@ Ces commandes fonctionnent sous mac.
 
 ##### Insérer dans un tag
 `🍎 + alt + T`
+
