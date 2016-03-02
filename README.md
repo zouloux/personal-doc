@@ -17,10 +17,12 @@ Ceci est une sorte de documentation / bookmark personnelle de tout ce que je tro
 
 ### Ressources
 
-- [Analytics](https://github.com/zouloux/personal-doc/blob/master/ressources/.md)
-- [Analytics](https://github.com/zouloux/personal-doc/blob/master/ressources/.md)
-- [](https://github.com/zouloux/personal-doc/blob/master/ressources/.md)
-- [](https://github.com/zouloux/personal-doc/blob/master/ressources/.md)
-- [](https://github.com/zouloux/personal-doc/blob/master/ressources/.md)
-- [](https://github.com/zouloux/personal-doc/blob/master/ressources/.md)
-- [](https://github.com/zouloux/personal-doc/blob/master/ressources/.md)
+- [Analytics](https://github.com/zouloux/personal-doc/blob/master/ressources/anyltics.md)
+- [Intégration](https://github.com/zouloux/personal-doc/blob/master/ressources/integration.md)
+- [Javascript (es6 / typescript)](https://github.com/zouloux/personal-doc/blob/master/ressources/javascript.md)
+- [Node (npm)](https://github.com/zouloux/personal-doc/blob/master/ressources/node.md)
+- [React / Web-Components](https://github.com/zouloux/personal-doc/blob/master/ressources/react-components.md)
+- [Style-guides (design patterns)](https://github.com/zouloux/personal-doc/blob/master/ressources/style-guides.md)
+- [Styling (css / less)](https://github.com/zouloux/personal-doc/blob/master/ressources/styling.md)
+- [Web techs (bower, etc)](https://github.com/zouloux/personal-doc/blob/master/ressources/web-techs.md)
+- [webgl](https://github.com/zouloux/personal-doc/blob/master/ressources/webgl.md)
