@@ -21,6 +21,7 @@ Ceci est une sorte de documentation / bookmark personnelle de tout ce que je tro
 - [Intégration](https://github.com/zouloux/personal-doc/blob/master/ressources/integration.md)
 - [Javascript (es6 / typescript)](https://github.com/zouloux/personal-doc/blob/master/ressources/javascript.md)
 - [Node (npm)](https://github.com/zouloux/personal-doc/blob/master/ressources/node.md)
+- [PHP (composer)](https://github.com/zouloux/personal-doc/blob/master/ressources/php.md)
 - [React / Web-Components](https://github.com/zouloux/personal-doc/blob/master/ressources/react-components.md)
 - [Style-guides (design patterns)](https://github.com/zouloux/personal-doc/blob/master/ressources/style-guides.md)
 - [Styling (css / less)](https://github.com/zouloux/personal-doc/blob/master/ressources/styling.md)
