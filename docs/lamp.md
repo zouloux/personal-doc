@@ -25,11 +25,11 @@ Problématique : Comment se configurer un LAMP tout propre sur mac ?
 
 ##### A faire la première fois dans la conf apache:
 - Changer le `documentRoot`
-- Ajouter `AllowOverride All` pour ce dossier
-- Ajouter `Indexes`
-- Ajouter `index.php` à côté de `index.html`
-- Changer l’utilisateur `User {username}`
-- Changer le groupe `Group staff`
+- Modifier `AllowOverride All` pour ce dossier
+- Ajouter `Indexes` aux options -> `Options FollowSymLinks Multiviews Indexes`
+- Ajouter `index.php` à côté de `index.html` -> `DirectoryIndex index.html index.php`
+- Changer l’utilisateur `User {username}` à la place de `User _www`
+- Changer le groupe à `Group staff`
 
 
 ## Installer plusieurs version de php
