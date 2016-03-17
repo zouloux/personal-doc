@@ -71,8 +71,10 @@ Tips : Pour encoder les caractères dans **sublime texte**, il suffit de faire `
 
 Exemple :
 ```html
-<coucou>5 &amp;gt; 12 est faux. Le litre de lait coûte 5 &amp;euro;</coucou>
+<p> 5 &amp;gt; 12 est faux. Le litre de lait coûte 5 &amp;euro; </p>
 ```
+Nous donnera
+`5 &gt; 12 est faux. Le litre de lait coûte 5 &euro;`
 
 ---
 ### IV) Les balises HTML
