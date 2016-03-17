@@ -1,88 +1,121 @@
 # HTML 101
 
+Cours et rappels de base pour l'écriture de code HTML.
+Ceci est un support de cours, sensé être accompagné d'une micro formation.
+Il est à destination des personnes débutantes dans l'écriture HTML.
+Il peut être appris aux chefs de projets devant toucher à la traduction et la saisie de données.
+
 ## La structure
 
-### Les balises
+### I) Les balises
 
-Ceci est une balise -> <coucou>
+1. Ceci est une balise ouverte -> `<coucou>`
 
-Toute balise ouverte est suivie par sa copine balise fermée : </coucou>
+2. Toute balise ouverte est suivie par sa copine balise fermée -> `</coucou>`
 
-Parfois les balises sont autofermées : <coucou />
+3. Parfois les balises sont autofermées comme `<coucou />`, elle n'ont pas besoin de copine fermante car elles sont l'ouverture ET la fermeture.
 
-Les balises peuvent être imbriqués :
+4. Chaque balise ouverte puis fermée, peut contenir d'autres balises, du texte ou les deux :
 
+```html
+<coucou> <salut /> je suis un texte </coucou>
+```
+
+5. Les balises peuvent aussi être imbriquées :
+
+```html
 <coucou>
 	<salut>
 		<super />
+		je suis un texte
+		<balise> un autre texte </balise>
 	</salut> 
 </coucou>
-
-Chaque balise ouverte puis fermée, peut contenir une autre balise, du texte ou les deux :
-
-<coucou> <salut /> je suis du texte </coucou>
+```
 
 #### Conclusion :
 Les balises nous permettent de former une structure arborescente.
-En HTML nous appelons le résultat de cette structure, la DOM.
 
+En HTML nous appelons le résultat de cette structure, la [DOM](https://fr.wikipedia.org/wiki/Document_Object_Model).
 
-### Les attributs
+---
+### II) Les attributs
 
-Ceci est une balise avec un attribut -> <coucou je-suis-un-attribut />
-
-Parfois les attributs ont des valeurs -> <coucou je-suis-un-attribut="avec une valeur" />
-
-#### Conclusion :
 Les attributs nous permettent de configurer / spécifier nos balises.
 
+1. Ceci est une balise avec un attribut :
+```html
+<coucou je-suis-un-attribut />
+```
 
-### Les caractères HTML
+2. Parfois les attributs ont des valeurs :
+```html
+<coucou je-suis-un-attribut="avec une valeur" />
+```
+
+---
+### III) Les caractères HTML
 
 Les caractères HTMLs permettent d'insérer des caractères réservés à la structure, dans le contenu de notre page.
-Par exemple, le caractère "<" est déjà réservé pour ouvrir et fermer les balises.
-Tous les caractères HTML commencent par "&" et terminent par ";" avec entre les 2 un code définissant le caractère.
-Parfois c'est un raccourci mnémotechnique (pour "<" c'est "Less Than", ce qui nous donne "&lt;") Pour ">" ça nous donne ? greater than &gt;
+Par exemple, le caractère **"<"** est déjà réservé pour ouvrir et fermer les balises.
 
-La liste des caractères HTML : http://www.commentcamarche.net/contents/489-caracteres-speciaux-html
+Tous les caractères HTML commencent par **"&"** et terminent par **";"**. Avec entre les deux un code définissant le caractère.
+Parfois c'est un raccourci mnémotechnique (pour **"<"** c'est **"Less Than"**, ce qui nous donne **"&amp;lt;"**)
+Pour **">"** ça nous donne Greater Than donc **"&amp;gt;"**
 
+La liste des caractères HTML se trouve [ici](http://www.commentcamarche.net/contents/489-caracteres-speciaux-html)
 
+Les caractères spéciaux tels que **"é à ç"** ou même **"€"** sont accéptés en HTML5. Il peuvent quand même être encodés.
 
-### Les balises HTML
+Tips : Pour encoder les caractères dans **sublime texte**, il suffit de faire `ctrl + shit + p` puis `Encode Special Chars`
+
+Exemple :
+```html
+<p> 5 &amp;gt; 12 est faux. Le litre de lait coûte 5 &amp;euro; </p>
+```
+Nous donnera
+`5 > 12 est faux. Le litre de lait coûte 5 €`
+
+---
+### IV) Les balises HTML
 
 En HTML nous avons donc un dictionnaire de balise pour exprimer une sémantique, et donc ajouter du sens à notre structure.
+Cette structure de balises prédéfinies seront interprêtées par notre navigateur pour être affichées à l'écran.
 
 #### Les balises de structure, dites "contenantes" :
 
-<div> : Cette balise permet de faire un nouveau conteneur. Rien de particulier.
+`<div>` : Cette balise permet de faire un nouveau conteneur. Elle sert surtout aux intégrateur pour imbriquer les éléments.
 
-<p> : Créé un nouveau paragraphe. Un paragraphe peut avoir une indentation, une lettrine, etc...
+`<p>` : Créé un nouveau paragraphe. Un paragraphe peut avoir une indentation, une lettrine, etc...
 
-Cas particulier, pour aller à la ligne en HTML, les sauts de lignes classiques sont ignorés (ou presque).
-Du coup nous avons la balise <br> qui force un saut de ligne. Mais attention ! C'est une balise ouverte mais qui n'a pas déquivalent fermé !
+**Attention, cas particulier** : pour aller à la ligne en HTML, les sauts de lignes classiques sont ignorés (ou presque).
+Du coup nous avons la balise **`<br>`** qui force un saut de ligne. C'est une balise ouverte mais qui n'a pas besoin d'être fermée !
+Elle existe donc sous deux formes **`<br>`** et **`<br/>`**, les deux étant valides en HTML5.
 
 Elle s'utilise donc comme suit :
 
+```html
 <p>Je suis un paragraphe <br> et je suis à la ligne.</p>
+```
 
 
 #### Les balises titres, par importance :
 
-<h1> : Premier niveau de titre, le plus important
-<h2>
+`<h1>` : Premier niveau de titre, le plus important
+`<h2>`
 ...
-<h6> : Dernier niveau de titre, le moins important
+`<h6>` : Dernier niveau de titre, le moins important
 
 
 #### Les listes
 
-<ul> : Liste non ordonnée, peut afficher des points ou des tirets.
-<ol> : Liste ordonnée, afficher chaque point précédé de son numéro.
+`<ul>` : Liste non ordonnée, peut afficher des points ou des tirets.
+`<ol>` : Liste ordonnée, afficher chaque point précédé de son numéro.
 
-Ces listes ne peuvent contenir que des éléments <li> (élément de liste),
-qui eux même peuvent contenir d'autres éléments HTML (c'est une balise contenante).
+Ces listes ne peuvent contenir que des éléments `<li>` (élément de liste), qui eux même peuvent contenir d'autres éléments HTML (c'est une balise contenante).
 
-Ce qui nous donne
+Ce qui nous donne :
+```html
 <ul>
 	<li>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
@@ -92,41 +125,34 @@ Ce qui nous donne
 		Je suis le second élément de liste...
 	</li>
 </ul>
+```
 
-Cours : http://www.alsacreations.com/astuce/lire/66-mes-listes-ul-ol-ou-listes-imbriques-ne-sont-pas-valides.html
+Plus d'informations sur les listes [ici](http://www.alsacreations.com/astuce/lire/66-mes-listes-ul-ol-ou-listes-imbriques-ne-sont-pas-valides.html)
 
 
 #### Les liens
 
-Pour créer un lien, il suffit d'utiliser la balise <a>, avec les bons attributs :
+Pour créer un lien, il suffit d'utiliser la balise `<a>`, avec les bons attributs :
 
+```html
 <a href="http://www.lien-vers-ma-page.com">Texte du lien</a>
+```
 
 Pour forcer le lien à être ouvert dans une nouvelle page :
 
+```html
 <a href="http://www.lien-vers-ma-page.com" target="_blank">Texte du lien</a>
+```
 
+**Attention**, il faut bien mettre **`http://`** devant le lien pour ouvrir un site externe (donc qui n'est pas sur le même nom de domaine).
+Pour cibler les pages du même nom de domaine, il est conseillé de partir du nom de domaine, en commençant par `/`
+Comme suit :
+```html
+<a href="/dossier/page.html"> Lien vers la page www.mondomain.com/dossier/page.html </a>
+```
 
-Attention, il faut bien mettre "http://" devant le lien pour ouvrir un site externe (donc pas une page interne au site)
+Pour ouvrir un nouvel e-mail, il faut préfixer par `mailto:` ce qui nous donne :
 
-Pour ouvrir un nouvel e-mail, il faut préfixer par "mailto:" ce qui nous donne :
-
-<a href="mailto:jean-jacques@gmail.com">Envoyer un e-mail du futur à Jean Jacques</a>
-
-
-
-
-
-## Convertir un document DOC en HTML :
-
-Outil en ligne de conversion doc vers HTML : https://word2cleanhtml.com/cleanit
-
-Marche mieux sur firefox.
-
-Options à cocher :
-
-- Remove empty paragraphs
-- Convert <b> to <strong>, <i> to <em>
-- Replace non-ascii with HTML entities
-- Replace smart quotes with ascii equivalents
-- Indent with tabs, not spaces 
+```html
+<a href="mailto:jean-jacques@gmail.com"> Envoyer un e-mail du futur à Jean Jacques </a>
+```
