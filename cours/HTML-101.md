@@ -74,25 +74,29 @@ Exemple :
 <p> 5 &amp;gt; 12 est faux. Le litre de lait coûte 5 &amp;euro; </p>
 ```
 Nous donnera
-`5 &gt; 12 est faux. Le litre de lait coûte 5 &euro;`
+`5 > 12 est faux. Le litre de lait coûte 5 €`
 
 ---
 ### IV) Les balises HTML
 
 En HTML nous avons donc un dictionnaire de balise pour exprimer une sémantique, et donc ajouter du sens à notre structure.
+Cette structure de balises prédéfinies seront interprêtées par notre navigateur pour être affichées à l'écran.
 
 #### Les balises de structure, dites "contenantes" :
 
-<div> : Cette balise permet de faire un nouveau conteneur. Rien de particulier.
+`<div>` : Cette balise permet de faire un nouveau conteneur. Elle sert surtout aux intégrateur pour imbriquer les éléments.
 
-<p> : Créé un nouveau paragraphe. Un paragraphe peut avoir une indentation, une lettrine, etc...
+`<p>` : Créé un nouveau paragraphe. Un paragraphe peut avoir une indentation, une lettrine, etc...
 
-Cas particulier, pour aller à la ligne en HTML, les sauts de lignes classiques sont ignorés (ou presque).
-Du coup nous avons la balise <br> qui force un saut de ligne. Mais attention ! C'est une balise ouverte mais qui n'a pas déquivalent fermé !
+**Attention, cas particulier** pour aller à la ligne en HTML, les sauts de lignes classiques sont ignorés (ou presque).
+Du coup nous avons la balise **`<br>`** qui force un saut de ligne. C'est une balise ouverte mais qui n'a pas besoin d'être fermée !
+Elle existe donc sous deux formes **`<br>`** et **`<br/>`**, les deux étant valides en HTML5.
 
 Elle s'utilise donc comme suit :
 
+```html
 <p>Je suis un paragraphe <br> et je suis à la ligne.</p>
+```
 
 
 #### Les balises titres, par importance :
