@@ -4,7 +4,7 @@
 
 ### Les balises
 
-Ceci est une balise -> `<coucou>`
+Ceci est une balise -> ```html<coucou>```
 
 Toute balise ouverte est suivie par sa copine balise fermée : &lt;/coucou&gt;
 
