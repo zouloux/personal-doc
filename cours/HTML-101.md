@@ -1,10 +1,16 @@
 # HTML 101
 
+Cours et rappels de base pour l'écriture de code HTML.
+Ceci est un support de cours, sensé être accompagné d'une micro formation.
+Il est à destination des personnes débutantes dans l'écriture HTML.
+Il peut être appris aux chefs de projets devant toucher à la traduction et la saisie de données.
+
 ## La structure
 
 ### Les balises
 
-1. Ceci est une balise -> `<coucou>`
+1. Ceci est une balise -> ```html
+<coucou>```
 
 2. Toute balise ouverte est suivie par sa copine balise fermée : `</coucou>`
 
@@ -22,7 +28,9 @@
 
 5. Chaque balise ouverte puis fermée, peut contenir une autre balise, du texte ou les deux :
 
-```<coucou> <salut /> je suis du texte </coucou>```
+```html
+<coucou> <salut /> je suis un texte </coucou>
+```
 
 #### Conclusion :
 Les balises nous permettent de former une structure arborescente.
