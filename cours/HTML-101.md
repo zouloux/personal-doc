@@ -1,27 +1,26 @@
 # HTML 101
 
 Cours et rappels de base pour l'écriture de code HTML.
-Ceci est un support de cours, sensé être accompagné d'une micro formation.
-Il est à destination des personnes débutantes dans l'écriture HTML.
-Il peut être appris aux chefs de projets devant toucher à la traduction et la saisie de données.
+Ceci est un support de cours, sensé être **accompagné d'une micro formation**.
+Il est à destination des personnes débutantes dans l'écriture HTML et leur permettra de faire de la saisie ou des traductions avancées.
 
 ## La structure
 
 ### I) Les balises
 
-1. Ceci est une balise ouverte -> `<coucou>`
+- Ceci est une balise ouverte : `<coucou>`
 
-2. Toute balise ouverte est suivie par sa copine balise fermée -> `</coucou>`
+- Toute balise ouverte est suivie par sa copine balise fermée : `</coucou>`
 
-3. Parfois les balises sont autofermées comme `<coucou />`, elle n'ont pas besoin de copine fermante car elles sont l'ouverture ET la fermeture.
+- Parfois les balises sont auto-fermées comme `<coucou />`, elle n'ont pas besoin de copine fermante car elles sont l'ouverture **et** la fermeture.
 
-4. Chaque balise ouverte puis fermée, peut contenir d'autres balises, du texte ou les deux :
+- Chaque balise ouverte puis fermée, peut contenir d'autres balises, du texte ou les deux :
 
 ```html
 <coucou> <salut /> je suis un texte </coucou>
 ```
 
-5. Les balises peuvent aussi être imbriquées :
+- Les balises peuvent aussi être imbriquées :
 
 ```html
 <coucou>
@@ -34,7 +33,7 @@ Il peut être appris aux chefs de projets devant toucher à la traduction et la 
 ```
 
 #### Conclusion :
-Les balises nous permettent de former une structure arborescente.
+Les balises nous permettent de former une **structure arborescente**.
 
 En HTML nous appelons le résultat de cette structure, la [DOM](https://fr.wikipedia.org/wiki/Document_Object_Model).
 
@@ -43,12 +42,12 @@ En HTML nous appelons le résultat de cette structure, la [DOM](https://fr.wikip
 
 Les attributs nous permettent de configurer / spécifier nos balises.
 
-1. Ceci est une balise avec un attribut :
+- Ceci est une balise avec un attribut :
 ```html
 <coucou je-suis-un-attribut />
 ```
 
-2. Parfois les attributs ont des valeurs :
+- Parfois les attributs ont des valeurs :
 ```html
 <coucou je-suis-un-attribut="avec une valeur" />
 ```
@@ -56,30 +55,33 @@ Les attributs nous permettent de configurer / spécifier nos balises.
 ---
 ### III) Les caractères HTML
 
-Les caractères HTMLs permettent d'insérer des caractères réservés à la structure, dans le contenu de notre page.
+Les caractères HTML permettent d'insérer des caractères réservés à la structure, dans le contenu de notre page.
 Par exemple, le caractère **"<"** est déjà réservé pour ouvrir et fermer les balises.
 
 Tous les caractères HTML commencent par **"&"** et terminent par **";"**. Avec entre les deux un code définissant le caractère.
-Parfois c'est un raccourci mnémotechnique (pour **"<"** c'est **"Less Than"**, ce qui nous donne **"&amp;lt;"**)
-Pour **">"** ça nous donne Greater Than donc **"&amp;gt;"**
+Parfois c'est un raccourci mnémotechnique (pour **"<"** c'est "**L**ess **T**han", ce qui nous donne **"&amp;lt;"**).
+Pour **">"** c'est "**G**reater **T**han" qui nous donne donc **"&amp;gt;"**
 
 La liste des caractères HTML se trouve [ici](http://www.commentcamarche.net/contents/489-caracteres-speciaux-html)
 
-Les caractères spéciaux tels que **"é à ç"** ou même **"€"** sont accéptés en HTML5. Il peuvent quand même être encodés.
+Les caractères spéciaux tels que **"é à ç"** ou même **"€"** sont accéptés en HTML5. Il est quand même conseillé de les encoder, mais ça peut dépendre des règles d'intégrations du projet.
 
-Tips : Pour encoder les caractères dans **sublime texte**, il suffit de faire `ctrl + shit + p` puis `Encode Special Chars`
+**Tips** : Pour encoder les caractères dans *sublime texte*, il suffit de faire `ctrl + shit + p` puis `Encode Special Chars`
 
-Exemple :
+Exemple (notez le "û") :
 ```html
-<p> 5 &amp;gt; 12 est faux. Le litre de lait coûte 5 &amp;euro; </p>
+<p> 5 &amp;gt; 12 est faux ! Le litre de lait coûte 5 &amp;euro; </p>
 ```
-Nous donnera
-`5 > 12 est faux. Le litre de lait coûte 5 €`
+
+Nous donnera :
+```
+5 > 12 est faux ! Le litre de lait coûte 5 €
+```
 
 ---
 ### IV) Les balises HTML
 
-En HTML nous avons donc un dictionnaire de balise pour exprimer une sémantique, et donc ajouter du sens à notre structure.
+En HTML nous avons donc un **dictionnaire de balise** pour exprimer une sémantique, et donc ajouter du sens à notre structure.
 Cette structure de balises prédéfinies seront interprêtées par notre navigateur pour être affichées à l'écran.
 
 #### Les balises de structure, dites "contenantes" :
@@ -109,8 +111,8 @@ Elle s'utilise donc comme suit :
 
 #### Les listes
 
-`<ul>` : Liste non ordonnée, peut afficher des points ou des tirets.
-`<ol>` : Liste ordonnée, afficher chaque point précédé de son numéro.
+- `<ul>` : Liste non ordonnée, peut afficher des points ou des tirets.
+- `<ol>` : Liste ordonnée, afficher chaque point précédé de son numéro.
 
 Ces listes ne peuvent contenir que des éléments `<li>` (élément de liste), qui eux même peuvent contenir d'autres éléments HTML (c'est une balise contenante).
 
