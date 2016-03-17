@@ -10,7 +10,8 @@ Il peut être appris aux chefs de projets devant toucher à la traduction et la 
 ### Les balises
 
 1. Ceci est une balise -> ```html
-<coucou>```
+<coucou>
+```
 
 2. Toute balise ouverte est suivie par sa copine balise fermée : `</coucou>`
 
