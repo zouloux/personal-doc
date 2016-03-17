@@ -4,23 +4,34 @@
 
 ### Les balises
 
-Ceci est une balise -> <coucou>
+Ceci est une balise -> &lt;coucou&gt;
 
-Toute balise ouverte est suivie par sa copine balise fermée : </coucou>
+Toute balise ouverte est suivie par sa copine balise fermée : &lt;/coucou&gt;
 
-Parfois les balises sont autofermées : <coucou />
+Parfois les balises sont autofermées : &lt;coucou /&gt;
 
 Les balises peuvent être imbriqués :
 
-<coucou>
-	<salut>
-		<super />
-	</salut> 
-</coucou>
+&lt;coucou&gt;
+	&lt;salut&gt;
+		&lt;super /&gt;
+	&lt;/salut&gt; 
+&lt;/coucou&gt;
 
 Chaque balise ouverte puis fermée, peut contenir une autre balise, du texte ou les deux :
 
-<coucou> <salut /> je suis du texte </coucou>
+&lt;coucou&gt; &lt;salut /&gt; je suis du texte &lt;/coucou&gt;
+
+#### Conclusion :
+Les balises nous permettent de former une structure arborescente.
+En HTML nous appelons le résultat de cette structure, la DOM.
+
+
+### Les attributs
+
+Ceci est une balise avec un attribut -&gt; &lt;coucou je-suis-un-attribut /&gt;
+
+Parfois les attributs ont des valeurs -&gt; &lt;coucou je-suis-un-attribut="avec une valeur" /&gt;
 
 #### Conclusion :
 Les balises nous permettent de former une structure arborescente.
