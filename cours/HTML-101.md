@@ -4,45 +4,36 @@
 
 ### Les balises
 
-Ceci est une balise -> ```html<coucou>```
+1. Ceci est une balise -> `<coucou>`
 
-Toute balise ouverte est suivie par sa copine balise fermée : &lt;/coucou&gt;
+2. Toute balise ouverte est suivie par sa copine balise fermée : `</coucou>`
 
-Parfois les balises sont autofermées : &lt;coucou /&gt;
+3. Parfois les balises sont autofermées : `<coucou />`
 
-Les balises peuvent être imbriqués :
+4. Les balises peuvent être imbriqués :
 
-&lt;coucou&gt;
-	&lt;salut&gt;
-		&lt;super /&gt;
-	&lt;/salut&gt; 
-&lt;/coucou&gt;
+```html
+<coucou>
+	<salut>
+		<super />
+	</salut> 
+</coucou>
+```
 
-Chaque balise ouverte puis fermée, peut contenir une autre balise, du texte ou les deux :
+5. Chaque balise ouverte puis fermée, peut contenir une autre balise, du texte ou les deux :
 
-&lt;coucou&gt; &lt;salut /&gt; je suis du texte &lt;/coucou&gt;
+```<coucou> <salut /> je suis du texte </coucou>```
 
 #### Conclusion :
 Les balises nous permettent de former une structure arborescente.
-En HTML nous appelons le résultat de cette structure, la DOM.
+En HTML nous appelons le résultat de cette structure, la [DOM](https://fr.wikipedia.org/wiki/Document_Object_Model).
 
 
 ### Les attributs
 
-Ceci est une balise avec un attribut -&gt; &lt;coucou je-suis-un-attribut /&gt;
+Ceci est une balise avec un attribut -> `<coucou je-suis-un-attribut />`
 
-Parfois les attributs ont des valeurs -&gt; &lt;coucou je-suis-un-attribut="avec une valeur" /&gt;
-
-#### Conclusion :
-Les balises nous permettent de former une structure arborescente.
-En HTML nous appelons le résultat de cette structure, la DOM.
-
-
-### Les attributs
-
-Ceci est une balise avec un attribut -> <coucou je-suis-un-attribut />
-
-Parfois les attributs ont des valeurs -> <coucou je-suis-un-attribut="avec une valeur" />
+Parfois les attributs ont des valeurs -> `<coucou je-suis-un-attribut="avec une valeur" />
 
 #### Conclusion :
 Les attributs nous permettent de configurer / spécifier nos balises.
@@ -53,7 +44,8 @@ Les attributs nous permettent de configurer / spécifier nos balises.
 Les caractères HTMLs permettent d'insérer des caractères réservés à la structure, dans le contenu de notre page.
 Par exemple, le caractère "<" est déjà réservé pour ouvrir et fermer les balises.
 Tous les caractères HTML commencent par "&" et terminent par ";" avec entre les 2 un code définissant le caractère.
-Parfois c'est un raccourci mnémotechnique (pour "<" c'est "Less Than", ce qui nous donne "&lt;") Pour ">" ça nous donne ? greater than &gt;
+Parfois c'est un raccourci mnémotechnique (pour "<" c'est "Less Than", ce qui nous donne "&amp;lt;")
+Pour ">" ça nous donne Greater Than donc "&amp;gt;"
 
 La liste des caractères HTML : http://www.commentcamarche.net/contents/489-caracteres-speciaux-html
 
