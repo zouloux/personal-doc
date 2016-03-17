@@ -7,7 +7,7 @@ Il peut être appris aux chefs de projets devant toucher à la traduction et la 
 
 ## La structure
 
-### Les balises
+### I) Les balises
 
 1. Ceci est une balise ouverte -> `<coucou>`
 
@@ -33,14 +33,13 @@ Il peut être appris aux chefs de projets devant toucher à la traduction et la 
 </coucou>
 ```
 
-
 #### Conclusion :
 Les balises nous permettent de former une structure arborescente.
 
 En HTML nous appelons le résultat de cette structure, la [DOM](https://fr.wikipedia.org/wiki/Document_Object_Model).
 
-
-### Les attributs
+---
+### II) Les attributs
 
 Les attributs nous permettent de configurer / spécifier nos balises.
 
@@ -54,19 +53,20 @@ Les attributs nous permettent de configurer / spécifier nos balises.
 <coucou je-suis-un-attribut="avec une valeur" />
 ```
 
-### Les caractères HTML
+---
+### III) Les caractères HTML
 
 Les caractères HTMLs permettent d'insérer des caractères réservés à la structure, dans le contenu de notre page.
-Par exemple, le caractère "<" est déjà réservé pour ouvrir et fermer les balises.
-Tous les caractères HTML commencent par "&" et terminent par ";" avec entre les 2 un code définissant le caractère.
-Parfois c'est un raccourci mnémotechnique (pour "<" c'est "Less Than", ce qui nous donne "&amp;lt;")
-Pour ">" ça nous donne Greater Than donc "&amp;gt;"
+Par exemple, le caractère **"<"** est déjà réservé pour ouvrir et fermer les balises.
 
-La liste des caractères HTML : http://www.commentcamarche.net/contents/489-caracteres-speciaux-html
+Tous les caractères HTML commencent par **"&"** et terminent par **";"**. Avec entre les deux un code définissant le caractère.
+Parfois c'est un raccourci mnémotechnique (pour **"<"** c'est **"Less Than"**, ce qui nous donne **"&amp;lt;"**)
+Pour **">"** ça nous donne Greater Than donc **"&amp;gt;"**
 
+La liste des caractères HTML se trouve [ici](http://www.commentcamarche.net/contents/489-caracteres-speciaux-html)
 
-
-### Les balises HTML
+---
+### IV) Les balises HTML
 
 En HTML nous avons donc un dictionnaire de balise pour exprimer une sémantique, et donc ajouter du sens à notre structure.
 
