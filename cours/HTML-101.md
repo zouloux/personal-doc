@@ -44,10 +44,15 @@ En HTML nous appelons le résultat de cette structure, la [DOM](https://fr.wikip
 
 Les attributs nous permettent de configurer / spécifier nos balises.
 
-1. Ceci est une balise avec un attribut -> `<coucou je-suis-un-attribut />`
+1. Ceci est une balise avec un attribut :
+```html
+<coucou je-suis-un-attribut />
+```
 
-2. Parfois les attributs ont des valeurs -> `<coucou je-suis-un-attribut="avec une valeur" />`
-
+2. Parfois les attributs ont des valeurs :
+```html
+<coucou je-suis-un-attribut="avec une valeur" />
+```
 
 ### Les caractères HTML
 
