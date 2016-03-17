@@ -9,43 +9,44 @@ Il peut être appris aux chefs de projets devant toucher à la traduction et la 
 
 ### Les balises
 
-1. Ceci est une balise -> ```html
-<coucou>
-```
+1. Ceci est une balise ouverte -> `<coucou>`
 
-2. Toute balise ouverte est suivie par sa copine balise fermée : `</coucou>`
+2. Toute balise ouverte est suivie par sa copine balise fermée -> `</coucou>`
 
-3. Parfois les balises sont autofermées : `<coucou />`
+3. Parfois les balises sont autofermées comme `<coucou />`, elle n'ont pas besoin de copine fermante car elles sont l'ouverture ET la fermeture.
 
-4. Les balises peuvent être imbriqués :
-
-```html
-<coucou>
-	<salut>
-		<super />
-	</salut> 
-</coucou>
-```
-
-5. Chaque balise ouverte puis fermée, peut contenir une autre balise, du texte ou les deux :
+4. Chaque balise ouverte puis fermée, peut contenir d'autres balises, du texte ou les deux :
 
 ```html
 <coucou> <salut /> je suis un texte </coucou>
 ```
 
+5. Les balises peuvent aussi être imbriquées :
+
+```html
+<coucou>
+	<salut>
+		<super />
+		je suis un texte
+		<balise> un autre texte </balise>
+	</salut> 
+</coucou>
+```
+
+
 #### Conclusion :
 Les balises nous permettent de former une structure arborescente.
+
 En HTML nous appelons le résultat de cette structure, la [DOM](https://fr.wikipedia.org/wiki/Document_Object_Model).
 
 
 ### Les attributs
 
-Ceci est une balise avec un attribut -> `<coucou je-suis-un-attribut />`
-
-Parfois les attributs ont des valeurs -> `<coucou je-suis-un-attribut="avec une valeur" />
-
-#### Conclusion :
 Les attributs nous permettent de configurer / spécifier nos balises.
+
+1. Ceci est une balise avec un attribut -> `<coucou je-suis-un-attribut />`
+
+2. Parfois les attributs ont des valeurs -> `<coucou je-suis-un-attribut="avec une valeur" />`
 
 
 ### Les caractères HTML
