@@ -89,8 +89,8 @@ Cette structure de balises prédéfinies seront interprêtées par notre navigat
 `<p>` : Créé un nouveau paragraphe. Un paragraphe peut avoir une indentation, une lettrine, etc...
 
 **Attention, cas particulier** : pour aller à la ligne en HTML, les sauts de lignes classiques sont ignorés (ou presque).
-Du coup nous avons la balise **`<br>`** qui force un saut de ligne. C'est une balise ouverte mais qui n'a pas besoin d'être fermée !
-Elle existe donc sous deux formes **`<br>`** et **`<br/>`**, les deux étant valides en HTML5.
+Du coup nous avons la balise **`<br>`** qui force un saut de ligne. C'est une balise ouverte mais qui **n'a pas besoin d'être fermée** !
+Elle existe donc sous deux formes, ouverte mais jamais fermée **`<br>`** et auto-fermante **`<br/>`**, **les deux étant valides en HTML5.**
 
 Elle s'utilise donc comme suit :
 
@@ -101,10 +101,10 @@ Elle s'utilise donc comme suit :
 
 #### Les balises titres, par importance :
 
-`<h1>` : Premier niveau de titre, le plus important
-`<h2>`
-...
-`<h6>` : Dernier niveau de titre, le moins important
+- `<h1>` : Premier niveau de titre, le plus important
+- `<h2>`
+- ...
+- `<h6>` : Dernier niveau de titre, le moins important
 
 
 #### Les listes
