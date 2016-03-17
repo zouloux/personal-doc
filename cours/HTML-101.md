@@ -65,6 +65,15 @@ Pour **">"** ça nous donne Greater Than donc **"&amp;gt;"**
 
 La liste des caractères HTML se trouve [ici](http://www.commentcamarche.net/contents/489-caracteres-speciaux-html)
 
+Les caractères spéciaux tels que **"é à ç"** ou même **"€"** sont accéptés en HTML5. Il peuvent quand même être encodés.
+
+Tips : Pour encoder les caractères dans **sublime texte**, il suffit de faire `ctrl + shit + p` puis `Encode Special Chars`
+
+Exemple :
+```html
+<coucou>5 &amp;gt; 12 est faux. Le litre de lait coûte 5 &amp;euro;</coucou>
+```
+
 ---
 ### IV) Les balises HTML
 
