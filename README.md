@@ -26,6 +26,7 @@ Ceci est une sorte de documentation / bookmark personnelle de tout ce que je tro
 - [React / Web-Components](https://github.com/zouloux/personal-doc/blob/master/ressources/react-components.md)
 - [Style-guides (design patterns)](https://github.com/zouloux/personal-doc/blob/master/ressources/style-guides.md)
 - [Styling (css / less)](https://github.com/zouloux/personal-doc/blob/master/ressources/styling.md)
+- [Video](https://github.com/zouloux/personal-doc/blob/master/ressources/video.md)
 - [Web techs (bower, etc)](https://github.com/zouloux/personal-doc/blob/master/ressources/web-techs.md)
 - [webgl](https://github.com/zouloux/personal-doc/blob/master/ressources/webgl.md)
 
