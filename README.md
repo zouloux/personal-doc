@@ -28,3 +28,6 @@ Ceci est une sorte de documentation / bookmark personnelle de tout ce que je tro
 - [Styling (css / less)](https://github.com/zouloux/personal-doc/blob/master/ressources/styling.md)
 - [Web techs (bower, etc)](https://github.com/zouloux/personal-doc/blob/master/ressources/web-techs.md)
 - [webgl](https://github.com/zouloux/personal-doc/blob/master/ressources/webgl.md)
+
+### Cours
+- [HTML 101](https://github.com/zouloux/personal-doc/blob/master/cours/HTML-101.md)
