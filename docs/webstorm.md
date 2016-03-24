@@ -1,6 +1,7 @@
 # Webstorm / Phpstorm
 
 Ces commandes fonctionnent sous mac.
+Multicurseur : [lien](http://blog.jetbrains.com/phpstorm/2014/03/working-with-multiple-selection-in-phpstorm-8-eap/)
 
 ##### Voir la doc rapidement
 `Fn + F1`
