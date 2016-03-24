@@ -17,7 +17,7 @@
 - Comment faire comprendre son design : [lien](https://medium.com/@frankiefreesbie/how-do-you-ensure-that-the-dev-team-understands-the-design-b7043ea01cd8?ref=webdesignernews.com#.67uzzqn4n)
 - Content display pattern, les patterns et leurs contenus : [lien](http://danielmall.com/articles/content-display-patterns/)
 - Les style guide front end : [lien](https://24ways.org/2011/front-end-style-guides/)
-
+- Style guide avec Sketch : [lien](https://speckyboy.com/2016/03/21/consistency-please-style-guides-sketch/)
 
 ## Livres
 
