@@ -23,3 +23,15 @@ Ces commandes fonctionnent sous mac.
 ##### Insérer dans un tag
 `🍎 + alt + T`
 
+##### Insérer un commentaire (sur mac en français y'a un bug)
+- `🍎 + shift + [+]` commentaire banner
+- `🍎 + [+]` commentaire slash
+
+##### Changer de casse
+- `🍎 + shift + U`
+
+##### Auto-formater la séléction, le fichier ou le dossier
+- `🍎 + alt + L`
+
+##### Ouvrir les préférences sans plantage
+- `🍎 + alt + ';'`
