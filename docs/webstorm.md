@@ -12,7 +12,7 @@ Multicurseur : [lien](http://blog.jetbrains.com/phpstorm/2014/03/working-with-mu
 ##### Autocomplétion
 `ctrl + space`
 
-##### Voir la déclaration
+##### Voir la déclaration dans une mini popup (pratique pour les images)
 `alt + space`
 
 ##### Options sur la déclaration (importer la ref par exemple)
