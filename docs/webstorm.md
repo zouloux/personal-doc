@@ -19,20 +19,24 @@ Multicurseur : [lien](http://blog.jetbrains.com/phpstorm/2014/03/working-with-mu
 `alt + enter`
 
 ##### Paramètres
-`🍎 + P`
+`CMD + P`
 
 ##### Insérer dans un tag
-`🍎 + alt + T`
+`CMD + alt + T`
 
 ##### Insérer un commentaire (sur mac en français y'a un bug)
-- `🍎 + shift + [+]` commentaire banner
-- `🍎 + [+]` commentaire slash
+- `CMD + shift + [+]` commentaire banner
+- `CMD + [+]` commentaire slash
 
 ##### Changer de casse
-- `🍎 + shift + U`
+- `CMD + shift + U`
 
 ##### Auto-formater la séléction, le fichier ou le dossier
-- `🍎 + alt + L`
+- `CMD + alt + L`
 
 ##### Ouvrir les préférences sans plantage
-- `🍎 + alt + ';'`
+- `CMD + alt + ';'`
+
+
+##### Mini popup avec les membres du fichier
+- `CMD + fn + F12`
