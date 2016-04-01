@@ -51,3 +51,6 @@ Désactiver la navigation bar (view > navigation bar) et l'invoquer à la demand
 `SHIFT + CMD + E` derniers fichiers édités
 
 `CTRL + TAB` popin switcher
+`ALT + TAB` changer de section de fichier
+
+
