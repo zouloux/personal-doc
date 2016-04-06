@@ -1,6 +1,6 @@
 # Personal Doc
 
-Ceci est une sorte de documentation / bookmark personnelle de tout ce que je trouve d'intéressant en rapport avec le développement. Il fort probable que certaines phrases ne parlent qu'à moi. N'hésitez pas a me contacter en cas de boulette ou de phrase trop incompréhensible :) Idem pour ajouter des infos.
+Ceci est une documentation / recueil de tout ce que je trouve d'intéressant en rapport avec mon métier de développeur web. Il est fort probable que certaines phrases ne parlent qu'à moi. N'hésitez pas a me contacter en cas de boulette, de passage incompréhensible, ou pour ajouter des infos :)
 
 ### Documentations
 
