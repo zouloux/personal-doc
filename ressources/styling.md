@@ -11,6 +11,7 @@
 
 - Normaliser les comportements Flexbox entre les browsers : [lien](http://philipwalton.com/articles/normalizing-cross-browser-flexbox-bugs/)
 - Livre en ligne de goetter sur les flexbox : [lien](http://goetter.fr/livres/flexbox/)
+- [Les bugs connus de flexbox](https://github.com/philipwalton/flexbugs)
 
 
 ## Workflow
