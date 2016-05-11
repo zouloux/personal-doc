@@ -10,7 +10,7 @@
 ## Exemples
 
 - Exemple d'export design pattern : [lien](http://rizzo.lonelyplanet.com/styleguide/ui-components/cards)
-
+- Pattern marvel (classe) : [lien](https://marvelapp.com/styleguide/overview/introduction)
 
 ## Articles
 
@@ -18,6 +18,7 @@
 - Content display pattern, les patterns et leurs contenus : [lien](http://danielmall.com/articles/content-display-patterns/)
 - Les style guide front end : [lien](https://24ways.org/2011/front-end-style-guides/)
 - Style guide avec Sketch : [lien](https://speckyboy.com/2016/03/21/consistency-please-style-guides-sketch/)
+
 
 ## Livres
 
@@ -29,7 +30,7 @@
 - Le site qui référence tous les outils, bonnes pratiques, livres, exemples : [lien]( http://styleguides.io/)
 
 
- ## Diverses ressources
+## Diverses ressources
 - http://www.smashingmagazine.com/2015/04/13/an-in-depth-overview-of-living-style-guide-tools/ 
 - https://medium.com/@operatino/living-style-guide-tools-in-depth-overview-28cfffb92d05 
 - http://www.smashingmagazine.com/2015/03/05/automating-style-guide-driven-development/ 
