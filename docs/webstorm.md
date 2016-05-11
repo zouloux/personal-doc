@@ -7,7 +7,7 @@ Multicurseur : [lien](http://blog.jetbrains.com/phpstorm/2014/03/working-with-mu
 `Fn + F1`
 
 ##### Afficher le contenu d'une méthode rapidement
-`🍎 + Y`
+`CMD + Y`
 
 ##### Autocomplétion
 `ctrl + space`
@@ -52,5 +52,3 @@ Désactiver la navigation bar (view > navigation bar) et l'invoquer à la demand
 
 `CTRL + TAB` popin switcher
 `ALT + TAB` changer de section de fichier
-
-

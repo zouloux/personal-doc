@@ -118,4 +118,4 @@ modules:
 - `codecept generate:cept functional Welcome`
 
 ##### Lancer les tests codeception
-- `codecept run (à la racine)
+- `codecept run` (à la racine)

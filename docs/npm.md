@@ -1,8 +1,12 @@
 # NPM
 
+
+
 ## Tutos
 - [Getting started with NPM publishing](https://gist.github.com/coolaj86/1318304)
 - [Creating and publishing a node js module](https://quickleft.com/blog/creating-and-publishing-a-node-js-module/)
+
+
 
 ## Publier un module en 3 lignes
 
@@ -14,5 +18,5 @@
 ##### Publier
 - `npm publish`
 
-##### Dépublier en cas de boulette
+##### Dépublier en cas de boulette (ATTENTION)
 - `npm unpublish ModuleName@1.2.3`

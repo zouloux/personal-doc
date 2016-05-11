@@ -10,5 +10,4 @@
 
 (Une classe n’arrive pas à charger ?)
 - `composer dump-autoload`
-(optionnel, relancer l’optimisation : --optimize)
-
+- (optionnel, relancer l’optimisation : `--optimize`)

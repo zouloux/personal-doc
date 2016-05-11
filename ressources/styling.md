@@ -1,22 +1,33 @@
+# Styling
+
+
+
 ## LESS
 
-#### Outils / Snipets
+##### Outils
+- [Patcher les vh et vmin sur iOS7](https://gist.github.com/zaygraveyard/dc4ca2cb5271d6e8d641#file-viewport-units-ios-less)
 
-- Patcher les vh et vmin sur iOS7 : [lien](https://gist.github.com/zaygraveyard/dc4ca2cb5271d6e8d641#file-viewport-units-ios-less)
-
-#### Media queries
+##### Media queries
 - [Gestion des media queries via un mixin, la solution 2 est top](http://www.iambacon.co.uk/blog/life-is-now-easier-create-media-query-mixins-with-rulesets-less-css)
+
+
 
 ## Flex-box
 
+##### Articles
 - [Flex box patterns, exemples d'intégrations en flexbox](http://www.flexboxpatterns.com/home)
-- Normaliser les comportements Flexbox entre les browsers : [lien](http://philipwalton.com/articles/normalizing-cross-browser-flexbox-bugs/)
-- Livre en ligne de goetter sur les flexbox : [lien](http://goetter.fr/livres/flexbox/)
+- [Normaliser les comportements Flexbox entre les browsers](http://philipwalton.com/articles/normalizing-cross-browser-flexbox-bugs/)
+- [Livre en ligne de goetter sur les flexbox](http://goetter.fr/livres/flexbox/)
+- [Intégrer comme avec flexbox mais sans flexbox](http://kyusuf.com/post/almost-complete-guide-to-flexbox-without-flexbox)
+
+##### Outils
 - [Les bugs connus de flexbox](https://github.com/philipwalton/flexbugs)
+- [Editeur de flexbox](http://briandiehr.com/#/layout-editor?_k=mq4ua6)
 
 
 
 ## Workflow
 
+##### BEM
 - [Get BEM, explications hyper simples](http://getbem.com/naming/)
 - [Bem 101](https://css-tricks.com/bem-101/)

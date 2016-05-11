@@ -23,7 +23,7 @@ Problématique : Comment se configurer un LAMP tout propre sur mac ?
 ##### Où se trouve le fichier conf d'apache :
 - `/etc/apache2/httpd.conf`
 
-##### A faire la première fois dans la conf apache:
+##### A faire la première fois dans la conf apache :
 - Changer le `documentRoot`
 - Modifier `AllowOverride All` pour ce dossier
 - Ajouter `Indexes` aux options -> `Options FollowSymLinks Multiviews Indexes`
