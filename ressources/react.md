@@ -15,6 +15,8 @@
 - [Article d'Addyosmani sur le combo React / web components](https://addyosmani.com/blog/component-interop-with-react-and-custom-elements/)
 - [Dynamic childrens et React, trucs important à saisir](http://blog.arkency.com/2014/10/react-dot-js-and-dynamic-children-why-the-keys-are-important/)
 - [React, isomorphisme et SEO](http://blog.altima.fr/seo/react-js-isomorphisme/)
+- [Bonne pratiques pour la gestion des états](http://brewhouse.io/blog/2015/03/24/best-practices-for-component-state-in-reactjs.html)
+- [Le cycle de vie d'un composant react](http://busypeoples.github.io/post/react-component-lifecycle/)
 
 ## Outils
 - [La lib qui permet d'utiliser les composants React en web components](https://github.com/PixelsCommander/ReactiveElements)

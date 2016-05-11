@@ -24,6 +24,9 @@
 - Relancer iTerm
 
 
+##### [SublimeText](https://github.com/zouloux/personal-doc/blob/master/docs/sublime.md)
+
+
 ##### Homebrew
 - [site](http://brew.sh/)
 - `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
