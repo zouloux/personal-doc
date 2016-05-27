@@ -24,6 +24,18 @@
 - Relancer iTerm
 
 
+##### Command Line Tools
+- [article](http://osxdaily.com/2014/02/12/install-command-line-tools-mac-os-x/)
+- Installer la dernière version de git
+
+##### Node Version Manager
+- [github NVM](https://github.com/creationix/nvm)
+
+##### Ruby Version Manager
+- [RVM](https://rvm.io/rvm/basics)
+- Installer le dernier ruby : `rvm install ruby --latest`
+
+
 ##### [SublimeText](https://github.com/zouloux/personal-doc/blob/master/docs/sublime.md)
 
 
