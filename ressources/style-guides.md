@@ -10,6 +10,7 @@
 ## Exemples
 - [Exemple d'export design pattern](http://rizzo.lonelyplanet.com/styleguide/ui-components/cards)
 - [Pattern marvel, autre exemple](https://marvelapp.com/styleguide/overview/introduction)
+- [Styles guides de marques](http://saijogeorge.com/brand-style-guide-examples/)
 
 ## Articles
 - [Content display pattern, les patterns et leurs contenus](http://danielmall.com/articles/content-display-patterns/)
