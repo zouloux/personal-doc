@@ -116,10 +116,14 @@ git push origin master --tags
 ##### Lister les tags
 ```git tag```
 
+
 ## Git côté serveur
 
-##### Créer un nouveau dépôt git
-```git init --bare --shared /volume1/Sources/TestGit.git``` [tuto](http://blog.e-nnov.fr/synology-dsm/git/#.V1W2_hSLRE4)
+##### Créer un nouveau dépôt git - [tuto synology](http://blog.e-nnov.fr/synology-dsm/git/#.V1W2_hSLRE4)
+```git init --bare --shared /volume1/Sources/TestGit.git```
+
+##### Cloner en passant par SSH
+```git clone ssh://user@host/volume1/homes/user/.../Project.git/```
 
 
 ## A documenter / expérimenter ...
