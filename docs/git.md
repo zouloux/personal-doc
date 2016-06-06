@@ -116,6 +116,11 @@ git push origin master --tags
 ##### Lister les tags
 ```git tag```
 
+## Git côté serveur
+
+##### Créer un nouveau dépôt git
+```git init --bare --shared /volume1/Sources/TestGit.git``` [tuto](http://blog.e-nnov.fr/synology-dsm/git/#.V1W2_hSLRE4)
+
 
 ## A documenter / expérimenter ...
 - Gestion des branches
