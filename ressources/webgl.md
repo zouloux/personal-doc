@@ -2,6 +2,7 @@
 
 ## Cours / bouquins
 - [Bouquin en ligne sur les shaders](https://thebookofshaders.com/)
+- [Partie pour les noob par notre génicoptère](http://thebookofshaders.com/appendix/04/)
 
 ## Génies
 - [Barradeau nous fait un moteur de particules](http://barradeau.com/blog/?p=621)
