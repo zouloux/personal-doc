@@ -7,6 +7,8 @@
 ## Génies
 - [Barradeau nous fait un moteur de particules](http://barradeau.com/blog/?p=621)
 - [Barradeau et les shaders pour la carte de voeux cher ami](http://barradeau.com/blog/?p=695)
+- [Quelques shaders webGL à l'occastion du BUMP par notre super Barradeau](https://github.com/nicoptere/BUMP)
+- [Shaders wireframe](http://webgl-sketch-dojo.kenji-special.info/app/32-others-single-pass/)
 
 ## Frameworks
 - [Composeur d'effet un peu plus poussé / réaliste pour THREE.js](https://github.com/spite/Wagner)
