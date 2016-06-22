@@ -28,7 +28,7 @@ Ceci est une documentation / recueil de tout ce que je trouve d'intéressant en 
 - [Styling (css / less)](https://github.com/zouloux/personal-doc/blob/master/ressources/styling.md)
 - [Video](https://github.com/zouloux/personal-doc/blob/master/ressources/video.md)
 - [Web techs (HTTP / SSL ...)](https://github.com/zouloux/personal-doc/blob/master/ressources/web-techs.md)
-- [webgl](https://github.com/zouloux/personal-doc/blob/master/ressources/webgl.md)
+- [WebGL](https://github.com/zouloux/personal-doc/blob/master/ressources/webgl.md)
 
 ### Cours
 - [HTML 101](https://github.com/zouloux/personal-doc/blob/master/cours/HTML-101.md)
