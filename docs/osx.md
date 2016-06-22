@@ -137,8 +137,12 @@ killall Dock```
 - `sudo killall -HUP mDNSResponder`
 
 
+### Docs
+- [Architecture de fichiers linux en image](https://pbs.twimg.com/media/ClPkUMRWgAADjiW.jpg:large)
+
 
 ## Quelques sources :
- 
+
 - http://secrets.blacktree.com/?showapp=com.apple.dock
 - http://www.chriswrites.com/17-ways-to-speed-up-mac-os-x-lion/
+
