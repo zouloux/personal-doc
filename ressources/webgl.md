@@ -3,9 +3,11 @@
 ## Blogs
 - [Learning WebGL Blog](http://learningwebgl.com/blog/)
 
-## Cours / bouquins
-- Bouquin en ligne sur les shaders - [thebookofshaders](https://thebookofshaders.com/) - [article poru les noob par génicoptère](http://thebookofshaders.com/appendix/04/)
+## Cours / Tutos / bouquins
+- Bouquin en ligne sur les shaders - [thebookofshaders](https://thebookofshaders.com/) - [article pour les noob par génicoptère](http://thebookofshaders.com/appendix/04/)
 - Cours sur OpenGL - [opengl-tutorial.org](http://www.opengl-tutorial.org/download/)
+- Tuto step by step de la base - [ogldev](http://ogldev.atspace.co.uk/)
+- Autre tuto step by step qui va un peu plus loin - [webglfundamentals](https://webglfundamentals.org/)
 
 ## Génies
 - [Barradeau nous fait un moteur de particules](http://barradeau.com/blog/?p=621)
