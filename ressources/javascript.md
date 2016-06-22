@@ -22,3 +22,10 @@
 
 ## ES6
 - [Tips intéressants en ES6](http://www.2ality.com/2016/05/six-nifty-es6-tricks.html)
+
+
+## Physics
+- Lightweight 3d physics engine for javascript - [Oimo](https://github.com/lo-th/Oimo.js/)
+
+## Audio API
+- Web audio framework - [ToneJS](https://github.com/Tonejs/Tone.js)
