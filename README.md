@@ -27,7 +27,7 @@ Ceci est une documentation / recueil de tout ce que je trouve d'intéressant en 
 - [Style-guides (design patterns)](https://github.com/zouloux/personal-doc/blob/master/ressources/style-guides.md)
 - [Styling (css / less)](https://github.com/zouloux/personal-doc/blob/master/ressources/styling.md)
 - [Video](https://github.com/zouloux/personal-doc/blob/master/ressources/video.md)
-- [Web techs (bower, etc)](https://github.com/zouloux/personal-doc/blob/master/ressources/web-techs.md)
+- [Web techs (HTTP / SSL ...)](https://github.com/zouloux/personal-doc/blob/master/ressources/web-techs.md)
 - [webgl](https://github.com/zouloux/personal-doc/blob/master/ressources/webgl.md)
 
 ### Cours
