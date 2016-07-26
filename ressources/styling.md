@@ -13,7 +13,12 @@
 
 ## Astuces CSS
 
+##### Décorations
 - Souligné super propre en multi lignes - [codepen](https://codepen.io/jonneal/pen/PzGYEE)
+- 
+
+##### Texts
+- Article sur lef ont size 62.5 - [goetter.fr](https://blog.goetter.fr/2016/07/05/lastuce-du-font-size-62-5-oui-non-ou-ca-depend/)
 
 
 ## Flex-box
