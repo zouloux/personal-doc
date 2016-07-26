@@ -11,4 +11,3 @@
 
 ## Guides
 - Guide ultra complet pour écrire du SVG à la main - [svgpocketguide](http://svgpocketguide.com/book/)
-- 
