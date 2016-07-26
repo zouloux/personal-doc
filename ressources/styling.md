@@ -11,6 +11,10 @@
 - [Gestion des media queries via un mixin, la solution 2 est top](http://www.iambacon.co.uk/blog/life-is-now-easier-create-media-query-mixins-with-rulesets-less-css)
 
 
+## Astuces CSS
+
+- Souligné super propre en multi lignes - [codepen](https://codepen.io/jonneal/pen/PzGYEE)
+
 
 ## Flex-box
 
