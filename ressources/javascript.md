@@ -9,7 +9,7 @@
 - [Savoir si on peut utiliser une fonctionnalité web sur un browser](http://caniuse.com/)
 - [Table de compatibilité ecma-script (ES5 / 6 ...)](http://kangax.github.io/compat-table/es5/)
 - [Liens essentiels javscript (news / web-components / etc)](https://github.com/ericelliott/essential-javascript-links)
-- [Calcul de matrix](http://www.useragentman.com/matrix/)
+- Calcul de matrix - [User agent man tool](http://www.useragentman.com/matrix/) - [Lib de conversion css2mat4](https://github.com/Jam3/css-transform-to-mat4)
 
 ## Liens
 - [Supers radio talk shows sur JS en général](https://devchat.tv/js-jabber/)
