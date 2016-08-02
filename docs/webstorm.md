@@ -40,6 +40,8 @@ Multicurseur : [lien](http://blog.jetbrains.com/phpstorm/2014/03/working-with-mu
 ##### Mini popup avec les membres du fichier
 - `CMD + fn + F12`
 
+##### Changer de fenêtre de projet ouvert
+- `CMD + @`
 
 ## Tips
 
