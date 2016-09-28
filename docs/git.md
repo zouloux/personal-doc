@@ -123,7 +123,10 @@ git push origin master --tags
 ```ssh synology.local```
 
 ##### Créer un nouveau dépôt git - [tuto synology](http://blog.e-nnov.fr/synology-dsm/git/#.V1W2_hSLRE4)
-```git init --bare --shared /volume1/Sources/TestGit.git```
+```
+cd GIT
+git init --bare --shared {Project}.git
+```
 
 ##### Cloner en passant par SSH
 ```git clone ssh://{user}@host/volume1/homes/{user}/GIT/{Project}.git/```
