@@ -22,6 +22,9 @@
 
 ## Flex-box
 
+##### Chead Sheet
+- [Ultimate Flexbox cheat sheet](http://www.sketchingwithcss.com/samplechapter/cheatsheet.html)
+
 ##### Articles
 - [Flex box patterns, exemples d'intégrations en flexbox](http://www.flexboxpatterns.com/home)
 - [Normaliser les comportements Flexbox entre les browsers](http://philipwalton.com/articles/normalizing-cross-browser-flexbox-bugs/)
