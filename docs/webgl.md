@@ -19,11 +19,21 @@
 #endif
 ```
 
+
 ### Précision
+
+Définir la précision est important car elle impacte directement les performances
 
 - Haute `precision highp float;`
 - Moyenne `precision mediump float;`
 - Basse `precision lowp float;`
+
+La qualité moyenne en GL_ES est recommandée :
+```
+#ifdef GL_ES
+precision mediump float;
+#endif
+```
 
 
 ### Syntaxe
@@ -49,5 +59,23 @@ bool myVar = true;
 vec3 myVec3 = myVec3(1.0, 0.0, 0.0);
 vec4 myVector = vec4( myVec3, 1.0);
 ```
+
+
+### Uniforms
+
+Les `uniforms` sont des paramètres du shader modifiables depuis notre application. On peut les préfixer (`u_` ou `uCamel`, sur shaderToy par exemple c'est `iCamel`.
+
+```
+uniform vec2 uMousePosition; // Vecteur à deux dimensions contenant la position de la souris
+uniform int uFrame; // Le nombre d'images écoulées
+uniform float uTime; // Le nombre de secondes écoulées pour rester sync
+```
+
+### Fonctions
+
+##### Trigonométrie
+Les fonction suivantes sont disponibles :
+`sin(), cos(), tan(), asin(), acos(), atan(), pow(), exp(), log(), sqrt(), abs(), sign(), floor(), ceil(), fract(), mod(), min(), max(), clamp()`
+Liste complète (ici)[http://www.shaderific.com/glsl-functions/]
 
 
