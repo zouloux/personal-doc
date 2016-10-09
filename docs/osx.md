@@ -55,24 +55,31 @@
 - Clean My Mac 3
 - KeePassX
 - Transmit
-- Cornerstone pour SVN
 - EasyHTML5Video
 - TexturePacker
 - Kaleidoscope
-- Remote Desktop Connection
 
 
 
 
 ### QuickLook
 
+- Le mec explique tout sur quicklook [ici](http://tidbits.com/article/16254)
+- Un [site](http://www.quicklookplugins.com/) qui contient plein de plugins quicklook
+
 ##### Ouvrir tous les fichiers ASCII en tant que fichier texte avec le quicklook Mac ([source](https://coderwall.com/p/dlithw/use-osx-finder-quicklook-to-preview-all-plain-text-files))
 - Télécharger [ça](https://github.com/whomwah/qlstephen/releases)
 - Dézipper ici `/Library/QuickLook`
 - Exécuter cette commande `qlmanage -r`
 
+##### Lire les fichiers Markdown depuis le quick look [source](https://github.com/toland/qlmarkdown)
+- Télécharger [ça](https://github.com/toland/qlmarkdown/releases)
+- Dézipper ici `/Library/QuickLook`
+- Exécuter cette commande `qlmanage -r`
+
 ##### Activer la sélection du texte dans l’aperçu
 - `defaults write com.apple.finder QLEnableTextSelection -bool TRUE; killall Finder`
+(ne fonctionne plus depuis el capitan ?)
 
 
 
