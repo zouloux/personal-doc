@@ -76,6 +76,6 @@ uniform float uTime; // Le nombre de secondes écoulées pour rester sync
 ##### Trigonométrie
 Les fonction suivantes sont disponibles :
 `sin(), cos(), tan(), asin(), acos(), atan(), pow(), exp(), log(), sqrt(), abs(), sign(), floor(), ceil(), fract(), mod(), min(), max(), clamp()`
-Liste complète (ici)[http://www.shaderific.com/glsl-functions/]
+Liste complète [http://www.shaderific.com/glsl-functions/](ici)
 
 
