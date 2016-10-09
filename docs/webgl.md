@@ -2,6 +2,9 @@
 
 # WebGL
 
+- Tout est là: [thebookofshaders](https://thebookofshaders.com)
+- Le glossaire super bien : https://thebookofshaders.com/glossary/
+
 
 ### Macros
 
@@ -60,6 +63,11 @@ vec3 myVec3 = myVec3(1.0, 0.0, 0.0);
 vec4 myVector = vec4( myVec3, 1.0);
 ```
 
+- Caster une float sur toutes les valeurs d'un `vec3`
+```
+float floatPosition = 0.8;
+vec3 vecColor = vec3(floatPosition); // Le vecteur sera un gris 0.8, pratique
+```
 
 ### Uniforms
 
