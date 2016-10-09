@@ -2,8 +2,9 @@
 
 # WebGL
 
-- Tout est là: [thebookofshaders](https://thebookofshaders.com)
+- Tout est là : https://thebookofshaders.com
 - Le glossaire super bien : https://thebookofshaders.com/glossary/
+- L'éditeur en ligne pour s'entrainer : http://editor.thebookofshaders.com/
 
 
 ### Macros
