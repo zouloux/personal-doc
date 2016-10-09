@@ -71,10 +71,26 @@ uniform int uFrame; // Le nombre d'images écoulées
 uniform float uTime; // Le nombre de secondes écoulées pour rester sync
 ```
 
+
 ### Fonctions
 
 ##### Trigonométrie
 Les fonction suivantes sont disponibles :
-`sin(), cos(), tan(), asin(), acos(), atan(), pow(), exp(), log(), sqrt(), abs(), sign(), floor(), ceil(), fract(), mod(), min(), max(), clamp()` Liste complète [ici](http://www.shaderific.com/glsl-functions/)
+`sin(), cos(), tan(), asin(), acos(), atan(), pow(), exp(), log(), sqrt(), abs(), sign(), floor(), ceil(), fract(), mod(), min(), max(), clamp()` [Liste complète ici](http://www.shaderific.com/glsl-functions/)
+
+
+### Varyings
+
+Les varyings sont modifiées à chaque thread. Par exemple sur chaque pixel 
+
+##### Inputs
+- `gl_FragCoord` est un `vec2` représentant chaque position de l'image
+
+##### Outputs
+- `gl_FragColor` est un `vec4` représentant la couleur de sortie
+
+
+
+
 
 
