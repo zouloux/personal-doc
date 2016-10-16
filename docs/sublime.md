@@ -18,27 +18,24 @@
 Editer la configuration `CMD + ,` :
 ```
 {
-	// Why ?
+	// ------------------------------------------------- THEME
+	"ui_separator": true,
+	
+	"theme": "ayu-light.sublime-theme",
+	"color_scheme": "Packages/ayu/ayu-light.tmTheme",
+	//"theme": "ayu.sublime-theme",
+	//"color_scheme": "Packages/ayu/ayu.tmTheme",
+	
+	// ------------------------------------------------- WINDOW
+	"hot_exit": false,
+	"close_windows_when_empty": false,
+	"remember_open_files": false,
+
+	// ------------------------------------------------- MISC
 	"ignored_packages":
 	[
 		"Vintage"
-	],
-
-	// Quit without prompting
-	"hot_exit": false,
-	
-	// Don't remember opened files
-	"remember_open_files": false,
-
-	// Don't close windows without tabs
-	"close_windows_when_empty": false,
-
-	// Ayu theme
-	"theme": "ayu.sublime-theme",
-	"color_scheme": "Packages/ayu/ayu.tmTheme",
-
-	// Typescript configuration
-	//"typescript_plugin_tsc_version": "1.7.3",
+	]
 }
 ```
 
