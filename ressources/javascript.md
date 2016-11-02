@@ -29,3 +29,6 @@
 
 ## Audio API
 - Web audio framework - [ToneJS](https://github.com/Tonejs/Tone.js)
+
+## Mobile
+- Normalisation du gyroscope et accéléromètre sur mobile - [Gyronorm](https://github.com/dorukeker/gyronorm.js)
