@@ -37,7 +37,6 @@ Problématique : Comment se configurer un LAMP tout propre sur mac ?
 Repo des versions de PHP pré-compilées : [lien](http://php-osx.liip.ch/)
 
 ##### Installer PHP 5.5
-- `sudo -s`
 - `curl -s http://php-osx.liip.ch/install.sh | bash -s 5.5`
 
 ##### Les version de PHP sont installées ici `/usr/local/`
@@ -47,7 +46,6 @@ Repo des versions de PHP pré-compilées : [lien](http://php-osx.liip.ch/)
 
 1. Supprimer le lien symbolique qui pointe vers la version en cours
 - `/usr/local/`
-- `sudo -s`
 - `rm -rf php5`
 
 2. Recréer le lien symbolique vers la bonne version
