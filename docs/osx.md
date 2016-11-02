@@ -15,6 +15,11 @@
 - TODO : Configuration
 
 
+##### Command Line Tools
+- [article](http://osxdaily.com/2014/02/12/install-command-line-tools-mac-os-x/)
+- Installer la dernière version de git
+
+
 ##### Oh My ZSH
 - [Site](https://github.com/robbyrussell/oh-my-zsh)
 - `sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"` Installer, pas root
@@ -23,10 +28,6 @@
 - `plugins=(git sublime)`
 - Relancer iTerm
 
-
-##### Command Line Tools
-- [article](http://osxdaily.com/2014/02/12/install-command-line-tools-mac-os-x/)
-- Installer la dernière version de git
 
 ##### Node Version Manager
 - [github NVM](https://github.com/creationix/nvm)
