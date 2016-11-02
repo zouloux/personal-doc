@@ -31,6 +31,7 @@
 
 ##### Node Version Manager
 - [github NVM](https://github.com/creationix/nvm)
+- ```nvn install node```
 
 ##### Ruby Version Manager
 - [RVM](https://rvm.io/rvm/basics)
