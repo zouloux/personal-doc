@@ -130,13 +130,12 @@ killall Dock```
 
 ##### Durée d’animation du Mission Control (ne pas être root)
 - `defaults write com.apple.dock expose-animation-duration -float 0.15; killall Dock`
- 
+
 ##### Délais d’attente pour le drag & drop entre les desktops (dangeureux) (ne pas être root)
 - `defaults write com.apple.dock workspaces-edge-delay -float 0.4: killall Dock`
- 
+
 ##### Durée de réduction des fenêtres (ne pas être root) (n'a plus l'air de marcher sur capital)
 - `defaults write NSGlobalDomain NSWindowResizeTime 0.15`
- 
 
 
 ### Tips
