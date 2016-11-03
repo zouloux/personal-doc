@@ -31,3 +31,7 @@ sudo chown -R `whoami` /usr/local
 ##### Démarrer le serveur
 - `mysql.server restart`
 
+##### Mot de passe root oublié ? hahaha.
+- `mysql.server restart --skip-grant-tables`
+puis re
+- `mysql_secure_installation`
