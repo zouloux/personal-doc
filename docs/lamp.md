@@ -30,7 +30,7 @@ Problématique : Comment se configurer un LAMP tout propre sur mac ?
 - Ajouter `index.php` à côté de `index.html` -> `DirectoryIndex index.html index.php`
 - Changer l’utilisateur `User {username}` à la place de `User _www`
 - Changer le groupe à `Group staff`
-
+- Ne pas oublier d'activer le mode rewrite `LoadModule rewrite_module libexec/apache2/mod_rewrite.so`
 
 ## Installer plusieurs version de php
 
