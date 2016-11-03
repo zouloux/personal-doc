@@ -35,3 +35,6 @@ sudo chown -R `whoami` /usr/local
 - `mysql.server restart --skip-grant-tables`
 puis re
 - `mysql_secure_installation`
+
+##### Erreur ?
+Si jamais `Error: Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)` apparaît, vérifier que le serveur soit bien lancé grâce à `mysql.server start`
