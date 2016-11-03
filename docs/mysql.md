@@ -1,13 +1,33 @@
 # Installation
 
-[Source de l'article](https://blog.joefallon.net/2013/10/install-mysql-on-mac-osx-using-homebrew/)
-
 Il faut déjà installer brew.
 
-Vérifier que brew fonctionne :
+##### Vérifier que brew fonctionne :
 
 ```
 brew update
 brew doctor
 brew upgrade
 ```
+
+##### Installer le paquet mysql via brew
+
+```
+brew install mysql
+```
+
+Si en ouvrant une nouvelle console la commande `mysql` ne fonctionne pas, il faut linker via `brew link mysql`.
+Si l'opération link ne fonctionne pas, il faut patcher les permission à la sauvage via :
+
+```
+sudo chown -R `whoami` /usr/local
+```
+
+[La suite dans l'article](https://blog.joefallon.net/2013/10/install-mysql-on-mac-osx-using-homebrew/)
+
+
+# Utilisation
+
+##### Démarrer le serveur
+- `mysql.server restart`
+
