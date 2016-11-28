@@ -5,7 +5,7 @@
 ## LESS
 
 ##### Outils
-- [Patcher les vh et vmin sur iOS7](https://gist.github.com/zaygraveyard/dc4ca2cb5271d6e8d641#file-viewport-units-ios-less)
+- (a virer car OSEF ios7) [Patcher les vh et vmin sur iOS7](https://gist.github.com/zaygraveyard/dc4ca2cb5271d6e8d641#file-viewport-units-ios-less)
 
 ##### Media queries
 - [Gestion des media queries via un mixin, la solution 2 est top](http://www.iambacon.co.uk/blog/life-is-now-easier-create-media-query-mixins-with-rulesets-less-css)
