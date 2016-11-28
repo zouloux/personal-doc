@@ -67,14 +67,20 @@ Repo des versions de PHP pré-compilées : [lien](http://php-osx.liip.ch/)
 
 ## Configurer PHP
 
-##### Créer le fichier de configuration php
-- `sudo cp /etc/php.ini.default /etc/php.ini`
+##### Emplacement du fichier php.ini de la version php en cours
+- `/usr/local/php5/lib/php.ini`
 
 ##### Configurer PHP
-- Lancer l'édition du fichier `st /etc/php.ini`
+- Lancer l'édition du fichier `st /usr/local/php5/lib/php.ini`
 - Activer l'extension SSL `extension=php_openssl.dll` (décommenter)
+- Activer l'extension SSL `extension=php_curl.dll` (décommenter)
+- Activer l'extension GD `extension=php_gd2.dll` (décommenter)
 - Activer l'extension MySQL PDO `extension=php_pdo_mysql.dll` (décommenter)
-- Activer l'extension MySQL PDO `extension=php_curl.dll` (décommenter)
+
+##### Vérifier
+- Quelle version ? `php -v`
+- Quel binaire ? `which php`
+- Quel fichier de config chargé ? `php --ini`
 
 ##### PHP est ciblé depuis apache grâce à ce fichier de conf :
 - `/etc/apache2/other/+php-osx.conf`
