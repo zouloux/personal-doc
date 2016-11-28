@@ -47,3 +47,6 @@
 
 ##### CSS
 - [Mini conventions CSS par alsacreation](http://www.alsacreations.com/article/lire/1707-mini-convention-css.html)
+
+##### Responsive
+- [Imperative breakpoints](https://medium.freecodecamp.com/the-100-correct-way-to-do-css-breakpoints-88d6a5ba1862)
