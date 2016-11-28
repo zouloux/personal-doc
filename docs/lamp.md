@@ -5,15 +5,10 @@ Problématique : Comment se configurer un LAMP tout propre sur mac ?
 
 ## Commandes utiles
 
-##### Démarrer apache
-- `sudo apachectl start`
-
-##### Arrêter apache
-- `sudo apachectl stop`
-
-##### Redémarrer apache
-- `sudo apachectl -k restart`
-
+##### Apache
+- Démarrer apache `sudo apachectl start`
+- Arrêter apache `sudo apachectl stop`
+- Redémarrer apache `sudo apachectl -k restart`
 
 
 ## Configuration Apache
@@ -57,7 +52,6 @@ Repo des versions de PHP pré-compilées : [lien](http://php-osx.liip.ch/)
 - Tester avec `php -v`
 
 
-
 ## Méthode pour switcher de PHP dans le shell USER et dans apache
 
 1. Supprimer le lien symbolique qui pointe vers la version en cours
@@ -69,4 +63,19 @@ Repo des versions de PHP pré-compilées : [lien](http://php-osx.liip.ch/)
 
 3. Redémarrer apache
 - `apachectl -k restart`
+
+
+## Configurer PHP
+
+##### Créer le fichier de configuration php
+- `sudo cp /etc/php.ini.default /etc/php.ini`
+
+##### Configurer PHP
+- Lancer l'édition du fichier `st /etc/php.ini`
+- Activer l'extension SSL `extension=php_openssl.dll` (décommenter)
+- Activer l'extension MySQL PDO `extension=php_pdo_mysql.dll` (décommenter)
+- Activer l'extension MySQL PDO `extension=php_curl.dll` (décommenter)
+
+##### PHP est ciblé depuis apache grâce à ce fichier de conf :
+- `/etc/apache2/other/+php-osx.conf`
 
