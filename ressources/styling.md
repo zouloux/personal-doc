@@ -39,8 +39,9 @@
 ## Workflow
 
 ##### BEM
+- [BEM ressources](https://github.com/sturobson/BEM-resources)
 - [Get BEM, explications hyper simples](http://getbem.com/naming/)
-- [Bem 101](https://css-tricks.com/bem-101/)
+- [BEM 101](https://css-tricks.com/bem-101/)
 
 ##### SASS
 - [include media, simplification des media queries](http://include-media.com/)
