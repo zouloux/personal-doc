@@ -35,3 +35,7 @@ Si **jean michel** travaille chez **Tartempion Corp**, ça nous donne :
 
 Pour accéder à sa machine on utilisera alors :
 - `jean-michel-tartempion-corp.local`
+
+
+
+[Source](http://osxdaily.com/2012/10/24/set-the-hostname-computer-name-and-bonjour-name-separately-in-os-x/)
