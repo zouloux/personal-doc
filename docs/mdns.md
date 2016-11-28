@@ -22,15 +22,16 @@ Le service bonjour doit être activé, et cette page ne couvre que la partie lin
 ## Workflow
 
 Ici le cas d'utilisation est une petite agence, moins de 10 développeurs. Au dessus il faudrait peut-être configurer un serveur DNS pour avoir une configuration plus stable et centralisée.
+
 Nous allons nommer chaque machine du réseau local comme suit :
 - `${nom-du-dev}.${nom-du-reseau}`
 
 Commandes à taper :
-- `scutil --set LocalHostName "${nom-du-dev}.${nom-du-reseau}"`
+- `scutil --set LocalHostName "${nom-du-dev}-${nom-du-reseau}"`
 - `scutil --set ComputerName "${Nom du dev} chez ${Nom du réseau}"`
 
-Si jean michel travaille chez tartempion corp, ça nous donne :
-- `jean-michel.tartempion-corp`
+Si **jean michel** travaille chez **Tartempion Corp**, ça nous donne :
+- `jean-michel-tartempion-corp`
 
 Pour accéder à sa machine on utilisera alors :
-- `jean-michel.tartempion-corp.local`
+- `jean-michel-tartempion-corp.local`
