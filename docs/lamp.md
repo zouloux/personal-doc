@@ -5,7 +5,7 @@
 - Comment changer de version de PHP facilement ?
 - Comment changer de configuratino de PHP facilement ?
 
-## Installation
-1. [Apache](../apache.md)
-2. [PHP](../php.md)
-1. [MySQL](../mysql.md)
+## Installation / config / utilisation
+1. [Apache](./apache.md)
+2. [PHP](./php.md)
+1. [MySQL](./mysql.md)
