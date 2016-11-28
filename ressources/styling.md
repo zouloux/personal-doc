@@ -51,3 +51,6 @@
 
 ##### Responsive
 - [Imperative breakpoints](https://medium.freecodecamp.com/the-100-correct-way-to-do-css-breakpoints-88d6a5ba1862)
+
+##### JS (création de style depuis Javascript)
+- [Super lib pour compiler des styles depuis ES6 / React](https://github.com/cssinjs/jss)
