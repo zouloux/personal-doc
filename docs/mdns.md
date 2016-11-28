@@ -39,5 +39,9 @@ Pour accéder à sa machine on utilisera alors :
 
 Préférer des surnoms aux prénoms pour éviter les conflits du type "je veux cibler la machine de pierre mais il y a 12 pierres dans l'agence".
 
+## Annuaire
+
+Il faut ensuite tenir un annuaire de chaque machine référencée. Cet annuaire peut être disponible dans un Google Doc ou un Wiki, du moment que tout le monde y a accès.
+
 
 [Source](http://osxdaily.com/2012/10/24/set-the-hostname-computer-name-and-bonjour-name-separately-in-os-x/)
