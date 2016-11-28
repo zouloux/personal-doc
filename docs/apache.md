@@ -1,12 +1,12 @@
 # Apache
 
-Nous allons utiliser le serveur Apache qui est inclus avec macos. Php va être chargé dynamiquement et configuré dynamiquement, le changement de version de PHP sera facile.
+Nous allons utiliser le serveur Apache qui est inclus avec MacOS. Php va être chargé dynamiquement et configuré dynamiquement, le changement de version de PHP sera facile.
 
-# Installation
+## Installation
 
 Déjà installé et fourni avec MacOS
 
-# Configuration
+## Configuration
 
 - Tuto : [lien](http://getgrav.org/blog/mac-os-x-apache-setup-multiple-php-versions)
 
@@ -26,9 +26,9 @@ Déjà installé et fourni avec MacOS
 - Ne pas oublier d'activer le mode rewrite `LoadModule rewrite_module libexec/apache2/mod_rewrite.so`
 
 
-# Utilisation
+## Utilisation
 
-## Commandes utiles
+##### Commandes utiles
 
 - Démarrer apache `sudo apachectl start`
 - Arrêter apache `sudo apachectl stop`
