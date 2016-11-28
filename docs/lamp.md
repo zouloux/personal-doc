@@ -54,29 +54,3 @@ Repo des versions de PHP pré-compilées : [lien](http://php-osx.liip.ch/)
 3. Redémarrer apache
 - `apachectl -k restart`
 
-
-##  Installer PHP avec prise en charge SQL Server via Brew
-
-### Attention c'est instable. La dernière installation n'a pas fonctionné. Voir plus bas.
-
-1. Installer brew
-
-2. Récupérer la version avec mssql
-- `brew tap homebrew/dupes`
-- `brew tap homebrew/versions
-- `brew tap homebrew/homebrew-php
-- `brew install php56 --with-mssql
-
-##### Ou est install PHP via Brew `/usr/local/Cellar/php56/5.6.16/`
-
-
-### Attention, l'installation de PHP via homebrew :
-
-Il n'y a pas de fichier entropy-php.conf dans le dossier de php.
-Ce fichier est chargé via un lien symbolique placé dans `/private/etc/apache2/other`
-
-Solution sale mais efficace : modifier le cellar en copiant le fichier `entropy-php.conf` dans le php compilé.
-Il faut changer le lien vers le .so -> `LoadModule php5_module        /usr/local/Cellar/php56/5.6.17/libexec/apache2/libphp5.so`
-Attention, pas d'update via brew possible.
-
-Bref, au final tout ça pour se retrouver face à un mur, le driver mssql qui déconne...
