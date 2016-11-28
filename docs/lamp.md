@@ -32,21 +32,37 @@ Problématique : Comment se configurer un LAMP tout propre sur mac ?
 - Changer le groupe à `Group staff`
 - Ne pas oublier d'activer le mode rewrite `LoadModule rewrite_module libexec/apache2/mod_rewrite.so`
 
-## Installer plusieurs version de php
+
+## Installer plusieurs version de php et switcher facilement
 
 Repo des versions de PHP pré-compilées : [lien](http://php-osx.liip.ch/)
 
-##### Installer PHP 5.5
-- `curl -s http://php-osx.liip.ch/install.sh | bash -s 5.5`
+##### Installer une version de PHP
+- Par exemple la 5.5 : `curl -s http://php-osx.liip.ch/install.sh | bash -s 5.5`
 
-##### Les version de PHP sont installées ici `/usr/local/`
+##### Les version de PHP sont installées ici 
+- `/usr/local/${phpName}-${phpVersion}-${buildDate}-${buildNumber}`
+- Exemple : `/usr/local/php5-5.6.16-20151127-214015/`
+
+##### Faire un lien symbolique vers cette version pour pouvoir la cibler
+- `cd /usr/local`
+- `ln -s ${phpFolderName} php5`
+
+##### Utiliser cette version de PHP depuis la console (en CLI)
+- Faire un lien symbolique dans `/usr/local/bin`
+- Il faut bien avoir `/usr/local/bin` dans le `PATH` du `~/.zshrc`
+- A faire une seule fois (le changement de version sera sync le switch de version plus loin)
+- `ln -s /usr/local/php5/bin/php /usr/local/bin/php`
+- Ne pas oublier de redémarrer la console ou de resourcer le PATH : `source ~/.zshrc`
+- Tester avec `php -v`
+
 
 
 ## Méthode pour switcher de PHP dans le shell USER et dans apache
 
 1. Supprimer le lien symbolique qui pointe vers la version en cours
 - `/usr/local/`
-- `rm -rf php5`
+- `rm -rf php5` (ou `trash php5` si [trash](http://hasseg.org/trash/) est installé)
 
 2. Recréer le lien symbolique vers la bonne version
 - `ln -s php5-5.6.16-20151127-214015 php5`
