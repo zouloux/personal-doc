@@ -1,6 +1,8 @@
-# Installation
+# MySQL
 
-Il faut déjà installer brew.
+## Installation
+
+Il faut avoir déjà installer [brew](http://brew.sh/index_fr.html).
 
 ##### Vérifier que brew fonctionne :
 
@@ -26,15 +28,14 @@ sudo chown -R `whoami` /usr/local
 [La suite dans l'article](https://blog.joefallon.net/2013/10/install-mysql-on-mac-osx-using-homebrew/)
 
 
-# Utilisation
+## Utilisation
 
 ##### Démarrer le serveur
 - `mysql.server restart`
 
 ##### Mot de passe root oublié ? hahaha.
 - `mysql.server restart --skip-grant-tables`
-puis re
-- `mysql_secure_installation`
+- puis refaire `mysql_secure_installation`
 
 ##### Erreur ?
 Si jamais `Error: Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)` apparaît, vérifier que le serveur soit bien lancé grâce à `mysql.server start`
