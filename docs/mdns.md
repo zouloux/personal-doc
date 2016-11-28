@@ -30,12 +30,14 @@ Commandes à taper :
 - `scutil --set LocalHostName "${nom-du-dev}-${nom-du-reseau}"`
 - `scutil --set ComputerName "${Nom du dev} @ ${Nom du réseau}"`
 
-Si **jean michel** travaille chez **Tartempion Corp**, ça nous donne :
-- `jean-michel-tartempion-corp`
+Si **Jean Mich 2000** travaille chez **Tartempion Corp**, ça nous donne :
+- `jean-mich-2000-tartempion-corp`
 
 Pour accéder à sa machine on utilisera alors :
-- `jean-michel-tartempion-corp.local`
+- `jean-mich-2000-tartempion-corp.local`
 
+
+Préférer des surnoms aux prénoms pour éviter les conflits du type "je veux cibler la machine de pierre mais il y a 12 pierres dans l'agence".
 
 
 [Source](http://osxdaily.com/2012/10/24/set-the-hostname-computer-name-and-bonjour-name-separately-in-os-x/)
