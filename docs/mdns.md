@@ -28,7 +28,7 @@ Nous allons nommer chaque machine du réseau local comme suit :
 
 Commandes à taper :
 - `scutil --set LocalHostName "${nom-du-dev}-${nom-du-reseau}"`
-- `scutil --set ComputerName "${Nom du dev} chez ${Nom du réseau}"`
+- `scutil --set ComputerName "${Nom du dev} @ ${Nom du réseau}"`
 
 Si **jean michel** travaille chez **Tartempion Corp**, ça nous donne :
 - `jean-michel-tartempion-corp`
