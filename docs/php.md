@@ -43,13 +43,11 @@ Repo des versions de PHP pré-compilées : [lien](http://php-osx.liip.ch/)
 
 ##### Méthode pour switcher de PHP dans le shell USER et dans apache
 
-1. Supprimer le lien symbolique qui pointe vers la version en cours
-- `cd /usr/local/`
-- `rm -rf php5` (ou `trash php5` si [trash](http://hasseg.org/trash/) est installé)
+1. Supprimer le lien symbolique qui pointe vers la version en cours `rm -rf /usr/local/php5` (ou plus sécure `trash /usr/local/php5` si [trash](http://hasseg.org/trash/) est installé)
+2. Recréer le lien symbolique vers la bonne version `ln -s /usr/local/${phpFolderName} /usr/local/php5`
+3. Redémarrer apache`apachectl -k restart`
 
-2. Recréer le lien symbolique vers la bonne version
-- `ln -s php5-5.6.16-20151127-214015 php5`
 
-3. Redémarrer apache
-- `apachectl -k restart`
+##### TODO
 
+Faire un module node qui permet de switcher de version de PHP avec cette méthode :)
