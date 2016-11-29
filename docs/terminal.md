@@ -69,3 +69,34 @@ Ce fichier va surcharger le fichier .profile et sera lu à chaque ouverture du s
 
 - [lien 1](http://superuser.com/questions/187639/zsh-not-hitting-profile)
 - [lien 2](http://stackoverflow.com/questions/10574684/where-to-place-path-variable-assertions-in-zsh)
+
+
+
+## Multi tache via SSH
+
+Pour lancer plusieurs commandes en parallel on peut utiliser le module "screen", intégré à ubuntu
+- Sinon `sudo apt-get install screen`
+
+Source : https://doc.ubuntu-fr.org/screen
+
+##### Créer une session
+- `screen -S nom_de_la_session`
+
+##### Fermer un écran (et laisser le script tourner)
+- `[CTRL] + a, d` en gros ctrl + A puis lâcher a puis taper D :)
+
+##### Reprendre un écran
+- `screen -r nom_de_la_session`
+
+Note : Le numéro permet de récupérer un screen sans taper le nom qui est parfois compliqué
+
+##### Lister les écran actifs
+- `screen -ls`
+
+**Attention, les écrans tourne bien par utilisateur donc si tu es en sudo tu n'auras pas les mêmes utilisateur que ceux lancés avec un autre utilisateur.**
+
+##### Fermer un écran
+- Il suffit de lancer la commande `exit` dans le screen en question
+
+##### Vider les screen qui sont mort
+- `screen -wipe`
