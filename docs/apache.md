@@ -2,6 +2,12 @@
 
 Nous allons utiliser le serveur Apache qui est inclus avec MacOS. Php va être chargé dynamiquement et configuré dynamiquement, le changement de version de PHP sera facile.
 
+##### Versions
+- MacOS Sierra : **Apache 2.4.23**
+- MacOS El Capitan : **Apache 2.4.16**
+- MacOS Yosemite : **Apache 2.4.10**
+- MacOS Maverick : **Apache 2.2.24**
+
 ## Installation
 
 Déjà installé et fourni avec MacOS
