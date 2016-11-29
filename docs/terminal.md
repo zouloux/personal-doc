@@ -72,7 +72,7 @@ Ce fichier va surcharger le fichier .profile et sera lu à chaque ouverture du s
 
 
 
-## Multi tache via SSH
+## Multi-tache via SSH avec Screen
 
 Pour lancer plusieurs commandes en parallel on peut utiliser le module "screen", intégré à ubuntu
 - Sinon `sudo apt-get install screen`
