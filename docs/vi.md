@@ -7,6 +7,12 @@
 ##### Quitter
 - `[ESC] :q`
 
+##### Quitter sans sauvegarder
+- `[ESC] :q!`
+
+##### Ajouter une ligne
+- `[ESC] :a`
+
 ##### Sauvegarder et quitter
 - `[ESC] :wq`
 
