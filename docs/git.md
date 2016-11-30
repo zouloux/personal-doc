@@ -107,6 +107,9 @@ Editor remplace la commande qui lance l'éditeur (`mate` / `st` / `nano` ...)
 - `git fetch` recupère le repo distant en repo local
 - `git checkout -t origin/master` checkout de la branche master dans le head
 
+
+### Commandes tags
+
 ##### Faire un nouveau tag
 ```
 git tag -a v0.0.2 -m "Release version 0.0.2"
@@ -114,7 +117,51 @@ git push origin master --tags
 ```
 
 ##### Lister les tags
-```git tag```
+- `git tag`
+
+
+
+## Commandes branches
+
+[Source](https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches)
+
+
+### Création d'une branche
+
+##### Créer une nouvelle branche et l'utiliser
+- `git chechout -b %branchName%`
+
+##### Puis la pousser sur le serveur
+- `git push origin %branchName%`
+
+##### Définir l'upstream de la branche sur origin
+- `git push --set-upstream origin %branchName%`
+
+
+
+### Suppression d'une branche
+
+##### Supprimer la branche en local uniquement
+- `git branch -d %branchName` (-D pour forcer la suppression)
+
+##### Supprimer la branche sur le repo
+- `git push origin :%branchName%`
+
+
+### Utilisation d'une branche
+
+##### Voir les branches qui existent et sur laquelle on travaille
+- `git branch`
+
+##### Switcher de branche
+- `git checkout %branchName%`
+
+##### Merger le master dans la branche
+- `git checkout %branchName%` On passe sur la branche en question
+- `git fetch` On peut récupérer les modifications du repo remote
+- `git merge master` On merge depuis le master
+- `git checkout master` On peut retourner sur notre branche master
+- `git push origin %branchName%` On pousse la branche
 
 
 ## Git côté serveur
