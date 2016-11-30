@@ -80,13 +80,13 @@ Pour lancer plusieurs commandes en parallel on peut utiliser le module "screen",
 Source : https://doc.ubuntu-fr.org/screen
 
 ##### Créer une session
-- `screen -S nom_de_la_session`
+- `screen -S %sessionName%`
 
 ##### Fermer un écran (et laisser le script tourner)
 - `[CTRL] + a, d` en gros ctrl + A puis lâcher a puis taper D :)
 
 ##### Reprendre un écran
-- `screen -r nom_de_la_session`
+- `screen -r %sessionName%`
 
 Note : Le numéro permet de récupérer un screen sans taper le nom qui est parfois compliqué
 
@@ -100,3 +100,7 @@ Note : Le numéro permet de récupérer un screen sans taper le nom qui est parf
 
 ##### Vider les screen qui sont mort
 - `screen -wipe`
+
+##### Lancer une commande dans un nouvel écran (pratique pour lancer des commandes programmées)
+- `screen -d -m -S %sessionName% bash -c "%codeToExec%"`
+- `screen -d -m -S %sessionName% %pathToSH%` pour lancer direct un .sh
