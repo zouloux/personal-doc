@@ -43,6 +43,10 @@ Multicurseur : [lien](http://blog.jetbrains.com/phpstorm/2014/03/working-with-mu
 ##### Changer de fenêtre de projet ouvert
 - `CMD + @`
 
+
+##### Sélectioner plusieurs lignes en mode multi curseur (pratique si les lignes n'ont pas d'élément en commun)
+- `[alt] + [drag and drop]`
+
 ## Tips
 
 Désactiver la navigation bar (view > navigation bar) et l'invoquer à la demande avec `CMD + ⬆`
