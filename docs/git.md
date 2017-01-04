@@ -11,7 +11,8 @@ https://help.github.com/articles/generating-ssh-keys/
 MacOS Sierra demande la passphrase à chaque push [source](http://superuser.com/questions/1127067/macos-keeps-asking-my-ssh-passphrase-since-i-updated-to-sierra).
 - `touch ~/.ssh/config`
 - `vim ~/.ssh/config`
-```Host *
+```
+Host *
     UseKeychain yes
 ```
 
