@@ -23,8 +23,7 @@ Editer la configuration `CMD + ,` :
 	
 	"theme": "ayu-light.sublime-theme",
 	"color_scheme": "Packages/ayu/ayu-light.tmTheme",
-	//"theme": "ayu.sublime-theme",
-	//"color_scheme": "Packages/ayu/ayu.tmTheme",
+	"rulers": [80],
 	
 	// ------------------------------------------------- WINDOW
 	"hot_exit": false,
