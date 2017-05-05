@@ -6,14 +6,23 @@
 
 ### A installer
 
+##### XtraFinder
+- TODO : Configuration
+
+
 
 ##### iTerm 2
 - TODO : Configuration
 
+##### Homebrew
+- [site](http://brew.sh/)
+- `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
-##### XtraFinder
-- TODO : Configuration
-
+##### Trash command-line
+- [site](http://hasseg.org/trash/)
+- `brew install trash`
+- Permet de mettre à la corbeille depuis le terminal avec la commande `trash`.
+- Possibilité de `cmd + Z` sur le finder et fini les sueures froides.
 
 ##### Command Line Tools
 - [article](http://osxdaily.com/2014/02/12/install-command-line-tools-mac-os-x/)
@@ -23,7 +32,7 @@
 ##### Oh My ZSH
 - [Site](https://github.com/robbyrussell/oh-my-zsh)
 - `sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"` Installer, pas root
-- `open ~/.zshrc`
+- `vi ~/.zshrc`
 - `ZSH_THEME="ys"`
 - `plugins=(git sublime)`
 - Relancer iTerm
@@ -31,7 +40,16 @@
 
 ##### Node Version Manager
 - [github NVM](https://github.com/creationix/nvm)
-- ```nvn install node```
+- Installer la dernière version de node : `nvn install node`
+- Lister les versions de nodes installées :
+- `nvm list`
+- Désinstaller une version :
+- `nvm uninstall %node-version%`
+- Upgrader node : `npm i -g npm`
+- Plus besoin de `sudo` pour les `npm install -g`
+
+- Les paquets node à installer en global après chaque installation de node :
+- `npm i -g grunt-cli bower typings`
 
 ##### Ruby Version Manager
 - [RVM](https://rvm.io/rvm/basics)
@@ -40,17 +58,6 @@
 
 ##### [SublimeText](https://github.com/zouloux/personal-doc/blob/master/docs/sublime.md)
 
-
-##### Homebrew
-- [site](http://brew.sh/)
-- `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
-
-
-##### Trash command-line
-- [site](http://hasseg.org/trash/)
-- `brew install trash`
-- Permet de mettre à la corbeille depuis le terminal avec la commande `trash`.
-- Possibilité de `cmd + Z` sur le finder et fini les sueures froides.
 
 
 ##### Autres trucs utiles
