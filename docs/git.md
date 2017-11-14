@@ -151,7 +151,7 @@ git push origin master --tags
 ### Suppression d'une branche
 
 ##### Supprimer la branche en local uniquement
-- `git branch -d %branchName` (-D pour forcer la suppression)
+- `git branch -d %branchName%` (-D pour forcer la suppression)
 
 ##### Supprimer la branche sur le repo
 - `git push origin :%branchName%`
@@ -172,6 +172,19 @@ git push origin master --tags
 - `git checkout master` On peut retourner sur notre branche master
 - `git push origin %branchName%` On pousse la branche
 
+
+### Roll back
+
+##### Récupérer le SHA1 d'un commit
+- `git log` (quitter avec la touche `q` :)
+
+##### Retourner à une version précédente
+**Attention**, cette méthode altère l'historique ! Pas safe si le code supprimé n'est pas présent dans une autre branche.
+- `git reset --hard %commit-sha1%`
+
+##### Pousser la version précédente et écraser ce qu'il y a sur le repo distant
+Maintenant qu'on est retourné à une version précédente en local, il faut pousser sans que git nous dise que notre version est trop vieille. Pour ça il suffit de forcer :
+- `git push -f`
 
 ## Git côté serveur
 
