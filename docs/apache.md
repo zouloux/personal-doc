@@ -14,8 +14,6 @@ Déjà installé et fourni avec MacOS
 
 ## Configuration
 
-- Tuto : [lien](http://getgrav.org/blog/mac-os-x-apache-setup-multiple-php-versions)
-
 ##### Où se trouve le fichier conf d'apache :
 - `/etc/apache2/httpd.conf`
 
@@ -39,4 +37,9 @@ Déjà installé et fourni avec MacOS
 - Démarrer apache `sudo apachectl start`
 - Arrêter apache `sudo apachectl stop`
 - Redémarrer apache `sudo apachectl -k restart`
+
+
+## Autres
+
+- Autre tuto plus long pour installer avec Brew : [lien](http://getgrav.org/blog/mac-os-x-apache-setup-multiple-php-versions)
 
