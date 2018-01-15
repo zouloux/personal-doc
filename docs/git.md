@@ -138,7 +138,7 @@ git push origin master --tags
 ### Création d'une branche
 
 ##### Créer une nouvelle branche et l'utiliser
-- `git chechout -b %branchName%`
+- `git checkout -b %branchName%`
 
 ##### Puis la pousser sur le serveur
 - `git push origin %branchName%`
