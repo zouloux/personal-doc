@@ -20,3 +20,7 @@
 
 ##### Dépublier en cas de boulette (ATTENTION)
 - `npm unpublish ModuleName@1.2.3`
+
+##### Publier dans un scope public
+- Ajouter le préfixe du scope dans le nom de package.json : `"name": "@zouloux/..."`
+- Publier en accès publique pour ne pas se faire jeter par NPM : `npm publish --access public`
