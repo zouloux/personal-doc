@@ -58,3 +58,22 @@ Désactiver la navigation bar (view > navigation bar) et l'invoquer à la demand
 
 `CTRL + TAB` popin switcher
 `ALT + TAB` changer de section de fichier
+
+
+
+## Optimisation de PHPStorm / WebStorm
+
+Help > Edit Custom VM options
+
+Ajouter ça :
+```
+-Dawt.useSystemAAFontSettings=lcd
+-Dawt.java2d.opengl=true
+```
+
+Modifier ça :
+```
+-Xms512m
+-Xmx2048m
+```
+
