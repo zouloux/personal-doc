@@ -128,6 +128,9 @@ git push origin master --tags
 ##### Lister les tags
 - `git tag`
 
+##### Retourner à un tag tout en gardant l'historique
+
+- `git revert --no-commit $tagName..HEAD`
 
 
 ## Commandes branches
