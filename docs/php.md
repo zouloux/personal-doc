@@ -1,6 +1,7 @@
 # Deprecated !
 
 -> https://getgrav.org/blog/macos-mojave-apache-multiple-php-versions
+-> https://gist.github.com/pixeline/51c43c787f51b018d484597f30be3d2b
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 
