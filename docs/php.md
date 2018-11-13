@@ -1,3 +1,9 @@
+# Deprecated !
+
+-> https://getgrav.org/blog/macos-mojave-apache-multiple-php-versions
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
 # PHP
 
 Installer plusieurs version de php et switcher facilement
