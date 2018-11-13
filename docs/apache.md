@@ -1,3 +1,9 @@
+# Deprecated !
+
+-> https://getgrav.org/blog/macos-mojave-apache-multiple-php-versions
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
 # Apache
 
 Nous allons utiliser le serveur Apache qui est inclus avec MacOS. Php va être chargé dynamiquement et configuré dynamiquement, le changement de version de PHP sera facile.
