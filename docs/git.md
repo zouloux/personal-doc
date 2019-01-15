@@ -203,8 +203,13 @@ git init --bare --shared {Project}.git
 ##### Cloner en passant par SSH
 ```git clone ssh://{user}@host/volume1/homes/{user}/GIT/{Project}.git/```
 
+## Retourner à l'état précédent
+Va supprimer tout ce qui n'a pas été commité
+- `git stash`
+- `git clean -fd`
 
 ## A documenter / expérimenter ...
 - Gestion des branches
 - Gestion des conflits
 - Gestion des pull request
+
