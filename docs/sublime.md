@@ -7,7 +7,7 @@
 2. Installer le [package control](https://packagecontrol.io/installation)
 
 ##### Packages à installer
-- theme : boxy 
+- Agila 
 - SideBarEnhancements
 - Typescript
 - Json Pretty
