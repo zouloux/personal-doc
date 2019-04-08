@@ -7,9 +7,10 @@
 2. Installer le [package control](https://packagecontrol.io/installation)
 
 ##### Packages à installer
-- theme : ayu 
+- theme : boxy 
 - SideBarEnhancements
 - Typescript
+- Json Pretty
 
 
 ## Configuration
@@ -18,23 +19,23 @@
 Editer la configuration `CMD + ,` :
 ```
 {
-	// ------------------------------------------------- THEME
-	"ui_separator": true,
-	
-	"theme": "ayu-light.sublime-theme",
-	"color_scheme": "Packages/ayu/ayu-light.tmTheme",
-	"rulers": [80],
-	
-	// ------------------------------------------------- WINDOW
-	"hot_exit": false,
 	"close_windows_when_empty": false,
-	"remember_open_files": false,
-
-	// ------------------------------------------------- MISC
+	"hot_exit": false,
+	"theme": "Agila.sublime-theme",
+	"color_scheme": "Packages/Agila Theme/Agila Oceanic Next.tmTheme",
 	"ignored_packages":
 	[
 		"Vintage"
-	]
+	],
+	"remember_open_files": false,
+	"rulers":
+	[
+		80,
+		120
+	],
+	"ui_separator": true,
+	"word_wrap" : false,
+	"scroll_past_end": true
 }
 ```
 
