@@ -8,6 +8,7 @@
 - PHP composer.json support
 - String Manipulation
 - Symfony Plugin
+- Grav Support
 
 ## PRE-INSTALLED PLUGINS TO KEEP
 
