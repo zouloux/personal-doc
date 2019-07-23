@@ -48,5 +48,4 @@ Editer la configuration `CMD + ,` :
 - `CMD + SHIFT + P` Lancer une commande (puis `inst` pour installer un paquet)
 - `CMD + K, B` Ouvrir le panneau projet
 
-
-## Tips
+Plus de raccourcis ici : http://blog.enguehard.info/raccourcis-clavier-pour-sublime-text-3/
