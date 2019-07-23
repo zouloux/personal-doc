@@ -1,12 +1,13 @@
 # Sublime Text
 
-
 ## Installation
 
 1. [Télécharger](https://www.sublimetext.com/3) et installer sublime text 3
 2. Installer le [package control](https://packagecontrol.io/installation)
 
+
 ##### Packages à installer
+
 - Agila 
 - SideBarEnhancements
 - Typescript
@@ -14,7 +15,6 @@
 
 
 ## Configuration
-
 
 Editer la configuration `CMD + ,` :
 ```
@@ -45,6 +45,7 @@ Editer la configuration `CMD + ,` :
 - `CMD + D` Cibler la prochaine instance
 - `CMD + SHIFT + D` Dupliquer
 - `CMD + P` Ouvrir un fichier du projet rapidement
+- `CMD + SHIFT + P` Lancer une commande (puis `inst` pour installer un paquet)
 - `CMD + K, B` Ouvrir le panneau projet
 
 
