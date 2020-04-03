@@ -7,7 +7,7 @@ echo ""
 echo "${bold}This will :${normal}"
 echo "1. Reset all files to 644 (read/write for user, read for others)"
 echo "2. Allow execution of directories for everybody (755)"
-echo "3. Allow exection for all .sh and all files with starting with a shebang (#!)"
+echo "3. Allow exection for all .sh and all files with starting with a shebang (#!), but not .map files"
 echo "4. It will ask you if you also need to patch current user with chown"
 echo ""
 
@@ -36,12 +36,16 @@ printf '#####';
 
 for i in `find . -type f`;
 do
-  t=$(head -n 1 $i | grep "#!");
+  t=$(head -n 1 "$i" | grep "#!");
   if [ $? -eq 0 ]; then
     printf '#';
     chmod +x $i
   fi
 done
+
+# Remove execution for map files
+find . -type f -name "*.map" -print0 | xargs -0 chmod -x
+printf '#####';
 
 echo "> Done"
 
