@@ -3,6 +3,7 @@ normal=$(tput sgr0)
 
 echo "This script allow you to recover correct ${bold}chmod / chown${normal} for current directory recursively."
 echo "It can be used if you transfered data to another disk and chmod has been lost."
+echo "We recommand to delete all node_module, caches and rebuild them later or this will be very long."
 echo ""
 echo "${bold}This will :${normal}"
 echo "1. Reset all files to 644 (read/write for user, read for others)"
@@ -34,20 +35,21 @@ printf '#####';
 find . -type f -name "*.sh" -print0 | xargs -0 chmod +x
 printf '#####';
 
-for i in `find . -type f`;
-do
-  t=$(head -n 1 "$i" | grep "#!");
+# Select all files and check if they start with a shebang
+find . -type f | while read LINE; do
+  t=$(head -n 1 "$LINE" | grep "#!");
   if [ $? -eq 0 ]; then
+    # Add execute
     printf '#';
-    chmod +x $i
+    chmod +x $LINE
   fi
 done
 
-# Remove execution for map files
+# Remove execution for map files which may have been previously added
 find . -type f -name "*.map" -print0 | xargs -0 chmod -x
 printf '#####';
 
-echo "> Done"
+echo "\n> Done\n"
 
 # Ask if chown also for current user
 currentUser=$(logname)
