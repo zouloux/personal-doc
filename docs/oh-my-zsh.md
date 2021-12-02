@@ -35,9 +35,12 @@ ZSH_THEME_GIT_PROMPT_CLEAN="%{$fg[blue]%})"
 - `vi ~/.zshrc`
 
 ```
-...
+# Change this line :
 ZSH_THEME="zouloux"
-...
+# Change this line :
 plugins=( git sublime zsh-autosuggestions)
-...
+# Add this line :
+source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 ```
+
+
