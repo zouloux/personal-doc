@@ -131,9 +131,11 @@
 ### Délais
 
 ##### Délais de rétractation du Dock (ne pas être root)
-```defaults write com.apple.dock autohide-time-modifier -float 0.15;
+```
+defaults write com.apple.dock autohide-time-modifier -float 0.15;
 defaults write com.apple.dock autohide-delay -float 0.15;
-killall Dock```
+killall Dock
+```
 
 ##### Durée d’animation du Mission Control (ne pas être root)
 - `defaults write com.apple.dock expose-animation-duration -float 0.15; killall Dock`
